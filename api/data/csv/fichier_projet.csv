@@ -1,0 +1,6 @@
+id,projet_id,emplacement,format_impose,mapping_colonnes,granularite,derniere_synchro
+01a19b45-b889-71e9-b1d0-2f517b67cfa6,01a19b45-b881-76cd-85d6-ac4263d52b10,"local (Excel du projet CAPG, feuille « inondation »)",True,,une ligne par classe,
+01a19b45-b937-7adb-a896-319b7ea3a365,01a19b45-b933-78c8-858f-7eb666426014,"local (Excel du projet CAPG, feuille « biodiversite »)",True,,une ligne par classe,
+01a19b45-b9a1-7db1-b59a-5eb16c555cbd,01a19b45-b99e-75f4-b674-67387e9b56d2,"local (Excel du projet CAPG, feuille « explorateur »)",False,,une ligne par séance,
+01a19b45-b9b7-78f4-a4dc-ac35cb17c73f,01a19b45-b9b2-765d-9d7f-8476bd37cd94,"local (Excel EDEN Mougins, feuille « 2013 »)",False,,blocs fusionnés,
+01a19b45-ba3e-720d-a299-fc6c3ad7439a,01a19b45-ba36-71a0-ab0c-044dd16d3411,SharePoint de la CACPL (fichier partagé avec macros),True,,une ligne par classe,

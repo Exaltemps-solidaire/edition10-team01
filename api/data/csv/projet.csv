@@ -1,0 +1,6 @@
+id,nom,annee_scolaire,programme_id,quota_classes,date_limite_inscription,mode_inscription,projet_precedent_id,statut
+01a19b45-b881-76cd-85d6-ac4263d52b10,Culture du risque inondation · CAPG 2026-2027,2026-2027,01a19b45-b878-70c7-96c7-69cbee532f03,15,2026-10-03,collectivité,,planification
+01a19b45-b933-78c8-858f-7eb666426014,Biodiversité · CAPG 2026-2027,2026-2027,01a19b45-b879-7c13-9e3b-7dd373aa881e,10,2026-10-03,collectivité,,planification
+01a19b45-b99e-75f4-b674-67387e9b56d2,Les p'tits explorateurs · CAPG 2026-2027,2026-2027,01a19b45-b87a-77bc-b043-74b3a40eecb5,1,,M2000,,planification
+01a19b45-b9b2-765d-9d7f-8476bd37cd94,Programme EDEN · Ville de Mougins 2026-2027,2026-2027,01a19b45-b87b-7e0a-adba-fed0b600860c,22,,M2000,,planification
+01a19b45-ba36-71a0-ab0c-044dd16d3411,Prévention des déchets · CACPL 2025-2026,2025-2026,01a19b45-b87c-7a54-a10f-4de3053d82cb,170,2025-10-03,collectivité,,bilan

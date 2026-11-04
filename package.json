@@ -1,0 +1,22 @@
+{
+  "name": "exaltemps-solidaire",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix frontend ci --no-audit --no-fund",
+    "dev": "npm --prefix frontend run dev",
+    "dev:api": "node api/src/server.ts",
+    "build": "npm --prefix frontend run build",
+    "lint": "eslint api && npm --prefix frontend run lint",
+    "test": "vitest run && npm --prefix frontend test",
+    "demo": "playwright test e2e/demo.spec.ts --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^24",
+    "eslint": "^9",
+    "typescript": "^5",
+    "typescript-eslint": "^8",
+    "vitest": "^5.0.1"
+  }
+}

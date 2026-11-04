@@ -1,0 +1,14 @@
+id,type,objet,corps,projet_id
+01a19b45-b87d-7c90-b7fe-43eb87a9ec13,confirmation,Confirmation de vos séances {programme},"Bonjour {enseignant},
+Je vous confirme nos séances : {dates}.
+À bientôt,
+{animatrice}, Méditerranée 2000",
+01a19b45-b87e-7e52-8450-74a1e1f66c3a,rappel,Rappel : notre séance du {date},"Bonjour {enseignant},
+Petit rappel : nous nous voyons le {date} pour l'animation « {animation} ».
+{animatrice}",
+01a19b45-b87f-7290-a341-bbbef4e2ea68,changement,Changement de date : {programme},"Bonjour,
+La séance prévue le {ancienne_date} est déplacée au {nouvelle_date}.
+{animatrice}",
+01a19b45-b880-72fb-9828-f123a945e7bb,questionnaire,Votre avis sur nos animations,"Bonjour {enseignant},
+Merci de prendre 5 minutes pour nous donner votre avis : {lien}
+L'équipe Méditerranée 2000",

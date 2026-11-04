@@ -1,0 +1,398 @@
+id,inscription_id,numero,type,debut,fin,lieu,animation,statut,effectif_reel,remarques
+01a19b45-b88e-754a-a54b-3b837440cabe,01a19b45-b88d-7e0c-97d6-af8ff423f8be,1,en classe,2027-01-09 09:00,2027-01-09 11:00,,,confirmée,,Saisie d'origine : « 09/01/26 matin »
+01a19b45-b890-7d8b-9978-673ad563d56d,01a19b45-b88d-7e0c-97d6-af8ff423f8be,2,en classe,2027-01-16 09:00,2027-01-16 11:00,,,confirmée,,Saisie d'origine : « 16/01/26 matin »
+01a19b45-b892-7d89-9a19-67d006f594cf,01a19b45-b88d-7e0c-97d6-af8ff423f8be,3,en classe,2027-01-23 09:00,2027-01-23 11:00,,,confirmée,,Saisie d'origine : « 23/01/26 matin »
+01a19b45-b894-7caa-9284-5daeafe987c1,01a19b45-b88d-7e0c-97d6-af8ff423f8be,4,sortie,2027-06-01 09:00,2027-06-01 11:00,Écluse (sortie de fin d'année),Sortie écluse,confirmée,,Saisie d'origine : « ecluse le 1/06 matin »
+01a19b45-b89b-7f44-98af-af544382ad47,01a19b45-b89a-7c80-99f9-00d321f34390,1,en classe,2026-12-11 11:00,2026-12-11 13:00,,,confirmée,,Saisie d'origine : « 11/12/2025 11h »
+01a19b45-b89d-7c24-8f78-15f2af3e7dd9,01a19b45-b89a-7c80-99f9-00d321f34390,2,en classe,2027-02-05 11:00,2027-02-05 13:00,,,confirmée,,Saisie d'origine : « 05/02/2026 11h »
+01a19b45-b89f-7a16-a55c-9c8e2f7c9cc7,01a19b45-b89a-7c80-99f9-00d321f34390,3,en classe,2027-04-30 11:00,2027-04-30 13:00,,,confirmée,,Saisie d'origine : « 30/04/2026 11h »
+01a19b45-b8a1-7d66-968e-485e46db73ab,01a19b45-b89a-7c80-99f9-00d321f34390,4,sortie,2027-06-05 09:00,2027-06-05 11:00,Écluse (sortie de fin d'année),Sortie écluse,confirmée,,Saisie d'origine : « écluse le 5/06 matin » · Remarque : Attention proposer jeu de l'oie à la place cube pays de l'eau
+01a19b45-b8a8-705c-bc37-bb0118b0f10e,01a19b45-b8a7-70e8-83f3-3851f72699ec,1,en classe,2027-03-05 14:00,2027-03-05 16:00,,,confirmée,,Saisie d'origine : « 05/03/26 aprèm »
+01a19b45-b8aa-793a-8fa9-60d1af925385,01a19b45-b8a7-70e8-83f3-3851f72699ec,2,en classe,2027-03-12 09:00,2027-03-12 11:00,,,confirmée,,Saisie d'origine : « 12/03/26 matin »
+01a19b45-b8ac-7c79-90a2-2a1b59adb533,01a19b45-b8a7-70e8-83f3-3851f72699ec,3,en classe,2027-03-23 14:00,2027-03-23 16:00,,,confirmée,,Saisie d'origine : « 23/03/26 aprém »
+01a19b45-b8b2-71eb-a0df-084ead090b97,01a19b45-b8b1-7fa9-ad16-75c1767187fd,1,en classe,2026-12-04 08:00,2026-12-04 10:00,,,confirmée,,Saisie d'origine : « 04/12/2025 8h »
+01a19b45-b8b4-7f96-ae70-78ea8052b13c,01a19b45-b8b1-7fa9-ad16-75c1767187fd,2,en classe,2027-03-26 08:00,2027-03-26 10:00,,,confirmée,,Saisie d'origine : « 26/03/2026 8h »
+01a19b45-b8b6-7d13-b272-c2ef4ab8bd10,01a19b45-b8b1-7fa9-ad16-75c1767187fd,3,en classe,2027-05-28 08:00,2027-05-28 10:00,,,confirmée,,Saisie d'origine : « 21/05/2026 8h » · Reportée (voir Changement de date) · Donnée fictive de test
+01a19b45-b8b8-7e0d-afce-4808b7158e9c,01a19b45-b8b1-7fa9-ad16-75c1767187fd,4,sortie,2027-06-02 09:00,2027-06-02 11:00,Écluse (sortie de fin d'année),Sortie écluse,confirmée,,Saisie d'origine : « écluse le 2/06 matin »
+01a19b45-b8be-78f8-b28b-f8ae57ad057d,01a19b45-b8bd-7f4e-8aca-ca4505306bb7,1,en classe,2026-12-04 10:00,2026-12-04 12:00,,,confirmée,,Saisie d'origine : « 04/12/2025 10h »
+01a19b45-b8c0-79e4-a980-f7bd1cd33258,01a19b45-b8bd-7f4e-8aca-ca4505306bb7,2,en classe,2027-03-26 10:00,2027-03-26 12:00,,,confirmée,,Saisie d'origine : « 26/03/2026 10h »
+01a19b45-b8c2-75aa-85c8-0ede202cb15a,01a19b45-b8bd-7f4e-8aca-ca4505306bb7,3,en classe,2027-05-21 10:00,2027-05-21 12:00,,,confirmée,,Saisie d'origine : « 21/05/2026 10h »
+01a19b45-b8c4-7075-8d5f-ad71a7e27f8c,01a19b45-b8bd-7f4e-8aca-ca4505306bb7,4,sortie,2027-06-02 09:00,2027-06-02 11:00,Écluse (sortie de fin d'année),Sortie écluse,confirmée,,Saisie d'origine : « écluse le 2/06 matin »
+01a19b45-b8cb-7af2-8a94-a6efef463c53,01a19b45-b8ca-7b7a-a95c-2c0b07465834,1,en classe,2026-11-25 13:30,2026-11-25 15:30,,,confirmée,,Saisie d'origine : « 25/11/2025 13h30 »
+01a19b45-b8cd-725f-895e-f1d04145ff00,01a19b45-b8ca-7b7a-a95c-2c0b07465834,2,en classe,2027-01-27 13:30,2027-01-27 15:30,,,confirmée,,Saisie d'origine : « 27/01/2026 13h30 »
+01a19b45-b8cf-77aa-8a88-ce1b46de6eef,01a19b45-b8ca-7b7a-a95c-2c0b07465834,3,en classe,2027-03-09 13:30,2027-03-09 15:30,,,confirmée,,Saisie d'origine : « 09/03/2026 13h30 »
+01a19b45-b8d1-7f18-a37f-0de050931ba9,01a19b45-b8ca-7b7a-a95c-2c0b07465834,4,sortie,2027-06-01 09:00,2027-06-01 11:00,Écluse (sortie de fin d'année),Sortie écluse,annulée,,Saisie d'origine : « écluse le 1/06 AM » · Annulée par l'école · Donnée fictive de test
+01a19b45-b8d8-7fa6-a0bb-4fcd02ebb8d8,01a19b45-b8d7-7d72-a86a-04d10e66c6be,1,en classe,2027-01-12 09:00,2027-01-12 11:00,,,confirmée,,Saisie d'origine : « 12/01/26 matin »
+01a19b45-b8da-7adc-b8ca-6b4af85e9bea,01a19b45-b8d7-7d72-a86a-04d10e66c6be,2,en classe,2027-01-19 09:00,2027-01-19 11:00,,,confirmée,,Saisie d'origine : « 19/01/26 matin »
+01a19b45-b8dc-7e7e-bec4-f31ced5eeb81,01a19b45-b8d7-7d72-a86a-04d10e66c6be,3,en classe,2027-01-26 14:00,2027-01-26 16:00,,,confirmée,,Saisie d'origine : « 26/01/26 aprém »
+01a19b45-b8de-7f35-9c24-72e5f9e65abf,01a19b45-b8d7-7d72-a86a-04d10e66c6be,4,sortie,2027-06-19 09:00,2027-06-19 11:00,Écluse (sortie de fin d'année),Sortie écluse,confirmée,,Saisie d'origine : « écluse le 12/06 matin » · Reportée (voir Changement de date) · Donnée fictive de test
+01a19b45-b8e4-794a-ac64-2a30c9e39659,01a19b45-b8e3-7e59-b95c-2b9bcfba5e78,1,en classe,2026-11-07 09:00,2026-11-07 11:00,,,confirmée,,Saisie d'origine : « 07/11/25 matin »
+01a19b45-b8e6-7275-a919-0876a0c5b20c,01a19b45-b8e3-7e59-b95c-2b9bcfba5e78,2,en classe,2026-11-14 09:00,2026-11-14 11:00,,,confirmée,,Saisie d'origine : « 14/11/25 matin »
+01a19b45-b8e8-7d05-9abc-12f8f35031ce,01a19b45-b8e3-7e59-b95c-2b9bcfba5e78,3,en classe,2026-11-21 09:00,2026-11-21 11:00,,,confirmée,,Saisie d'origine : « 21/11/25 matin »
+01a19b45-b8ea-7cb9-a888-1c56b3cd1e1c,01a19b45-b8e3-7e59-b95c-2b9bcfba5e78,4,sortie,2027-06-12 09:00,2027-06-12 11:00,Écluse (sortie de fin d'année),Sortie écluse,confirmée,,Saisie d'origine : « écluse le 12/06 matin »
+01a19b45-b8f1-7952-b212-db56d9452ba0,01a19b45-b8f0-7d98-b795-587b888debe9,1,en classe,2027-03-30 09:00,2027-03-30 11:00,,,confirmée,,Saisie d'origine : « 30/03/2026 9h »
+01a19b45-b8f3-7615-a4ad-bceaf49e72ce,01a19b45-b8f0-7d98-b795-587b888debe9,2,en classe,2027-04-27 09:00,2027-04-27 11:00,,,confirmée,,Saisie d'origine : « 27/04/2026 9h »
+01a19b45-b8f5-7a4f-8fe2-4ae2843fa185,01a19b45-b8f0-7d98-b795-587b888debe9,3,en classe,2027-05-11 09:00,2027-05-11 11:00,,,confirmée,,Saisie d'origine : « 11/05/2026 9h »
+01a19b45-b8fa-7a9a-97bc-9f31bcc1a936,01a19b45-b8f9-70a9-8f77-abb942edffa9,1,en classe,2027-01-22 13:30,2027-01-22 15:30,,,confirmée,,Saisie d'origine : « 22/01/2026 13h30 »
+01a19b45-b8fc-74b9-8afc-59d6e61f1bf9,01a19b45-b8f9-70a9-8f77-abb942edffa9,2,en classe,2027-01-29 13:30,2027-01-29 15:30,,,confirmée,,Saisie d'origine : « 29/01/2026 13h30 »
+01a19b45-b8fe-7637-b906-699e224e229f,01a19b45-b8f9-70a9-8f77-abb942edffa9,3,en classe,2027-02-05 13:30,2027-02-05 15:30,,,confirmée,,Saisie d'origine : « 05/02/2026 13h30 »
+01a19b45-b905-7842-b8d3-b1862bbf2273,01a19b45-b904-789b-bf2e-f417e0800498,1,en classe,2027-01-27 08:00,2027-01-27 10:00,,,confirmée,,Saisie d'origine : « 27/01/2026 8h »
+01a19b45-b907-729c-a50e-0c178a023907,01a19b45-b904-789b-bf2e-f417e0800498,2,en classe,2027-02-03 08:00,2027-02-03 10:00,,,confirmée,,Saisie d'origine : « 03/02/2026 8h »
+01a19b45-b909-7e1e-aaee-910c83d6877d,01a19b45-b904-789b-bf2e-f417e0800498,3,en classe,2027-02-10 08:00,2027-02-10 10:00,,,confirmée,,Saisie d'origine : « 10/02/2026 8h »
+01a19b45-b90e-7204-bf87-175d9c2a2dc0,01a19b45-b90d-7994-a77b-5be58839cef1,1,en classe,2027-01-14 08:00,2027-01-14 10:00,,,confirmée,,Saisie d'origine : « 14/01/2026 8h »
+01a19b45-b910-7df8-9b7e-243a7c0c7045,01a19b45-b90d-7994-a77b-5be58839cef1,2,en classe,2027-01-28 08:00,2027-01-28 10:00,,,confirmée,,Saisie d'origine : « 28/01/2026 8h »
+01a19b45-b912-79dd-8337-dda661963ad7,01a19b45-b90d-7994-a77b-5be58839cef1,3,en classe,2027-02-11 08:00,2027-02-11 10:00,,,confirmée,,Saisie d'origine : « 11/02/2026 8h »
+01a19b45-b917-774b-90b6-3899aefc1636,01a19b45-b916-75bf-9421-f5433f3d26be,1,en classe,2026-03-02 10:00,2026-03-02 12:00,,,réalisée,,Saisie d'origine : « 02/03/2025 10h » · ⚠️ Date incohérente avec l'année scolaire (erreur de saisie conservée)
+01a19b45-b919-7c74-91ac-44be1521f652,01a19b45-b916-75bf-9421-f5433f3d26be,2,en classe,2027-03-09 10:00,2027-03-09 12:00,,,confirmée,,Saisie d'origine : « 09/03/2026 10h »
+01a19b45-b91b-74ff-8728-77b17eac0d53,01a19b45-b916-75bf-9421-f5433f3d26be,3,en classe,2027-03-23 10:00,2027-03-23 12:00,,,confirmée,,Saisie d'origine : « 23/03/2026 10h »
+01a19b45-b920-7db6-a834-7fb4b94e23d4,01a19b45-b91f-7e5f-a838-11ee529c0c9d,1,en classe,2027-01-12 10:00,2027-01-12 12:00,,,confirmée,,Saisie d'origine : « 12/01/2026 10h »
+01a19b45-b922-7ce4-b24c-e2dd2d3f0bf3,01a19b45-b91f-7e5f-a838-11ee529c0c9d,2,en classe,2027-01-26 10:00,2027-01-26 12:00,,,confirmée,,Saisie d'origine : « 26/01/2026 10h »
+01a19b45-b924-7593-ab74-268fb06cdc63,01a19b45-b91f-7e5f-a838-11ee529c0c9d,3,en classe,2027-02-09 10:00,2027-02-09 12:00,,,confirmée,,Saisie d'origine : « 09/02/2026 10h »
+01a19b45-b92a-7d5d-9437-9b7444835595,01a19b45-b929-76e4-a0a9-58f0bc71bb9d,1,en classe,2027-04-28 09:00,2027-04-28 11:00,,,confirmée,,Saisie d'origine : « 28/04/26 matin »
+01a19b45-b92c-771f-9de5-6d3ad757944c,01a19b45-b929-76e4-a0a9-58f0bc71bb9d,2,en classe,2027-05-18 09:00,2027-05-18 11:00,,,confirmée,,Saisie d'origine : « 18/05/26 matin »
+01a19b45-b92e-73bd-84a7-3da5a07affad,01a19b45-b929-76e4-a0a9-58f0bc71bb9d,3,en classe,2027-05-28 14:00,2027-05-28 16:00,,,confirmée,,Saisie d'origine : « 28/05/26  14h »
+01a19b45-b930-71fb-85bd-74d18fb15a3d,01a19b45-b929-76e4-a0a9-58f0bc71bb9d,4,sortie,2027-06-02 09:00,2027-06-02 11:00,Écluse (sortie de fin d'année),Sortie écluse,confirmée,,Saisie d'origine : « écluse le 2/06 AM »
+01a19b45-b93c-78f1-845d-b50502b12374,01a19b45-b93b-72c6-b974-a4a06656e638,1,en classe,2027-03-20 09:00,2027-03-20 11:00,,,confirmée,,Saisie d'origine : « 20/03/26 matin »
+01a19b45-b93e-7a4e-9436-28f75581ebc2,01a19b45-b93b-72c6-b974-a4a06656e638,2,en classe,2027-03-31 09:00,2027-03-31 11:00,,,confirmée,,Saisie d'origine : « 31/03/26 matin »
+01a19b45-b940-779f-8d55-c3dec7383358,01a19b45-b93b-72c6-b974-a4a06656e638,3,en classe,2027-05-26 09:00,2027-05-26 11:00,,,à confirmer,,"Saisie d'origine : « 19/05/26 matin » · Reportée (voir Changement de date) · Donnée fictive de test · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b946-7753-8a6e-3fc8358fb7fc,01a19b45-b945-7c78-848d-c233539cf42a,1,en classe,2027-01-12 14:00,2027-01-12 16:00,,,confirmée,,Saisie d'origine : « 12/01/26 aprèm »
+01a19b45-b948-7141-9e93-3f99a152cfd1,01a19b45-b945-7c78-848d-c233539cf42a,2,en classe,2027-01-20 09:00,2027-01-20 11:00,,,confirmée,,Saisie d'origine : « 20/01/26 matin »
+01a19b45-b94a-702f-84d9-2cd989f95cc2,01a19b45-b945-7c78-848d-c233539cf42a,3,en classe,2027-01-26 09:00,2027-01-26 11:00,,,à confirmer,,"Saisie d'origine : « 26/01/26 matin » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b952-7454-873e-f4721ba98d07,01a19b45-b951-7222-8f24-f14b96ccafff,1,en classe,2027-04-30 14:00,2027-04-30 16:00,,,confirmée,,Saisie d'origine : « 30/04/26 aprèm »
+01a19b45-b954-7bbe-8cdc-06ee2f6d1485,01a19b45-b951-7222-8f24-f14b96ccafff,2,en classe,2027-05-07 14:00,2027-05-07 16:00,,,confirmée,,Saisie d'origine : « 07/05/26 aprém »
+01a19b45-b956-7e93-b188-32d1fd07b7ca,01a19b45-b951-7222-8f24-f14b96ccafff,3,en classe,2027-05-22 09:00,2027-05-22 11:00,,,à confirmer,,"Saisie d'origine : « 22/05/26 matin » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b95c-7221-bd70-f3e1a4c2cc1c,01a19b45-b95b-7095-8006-b2b4d6c6216c,1,en classe,2027-03-02 14:00,2027-03-02 16:00,,,confirmée,,Saisie d'origine : « 02/03/26 aprém »
+01a19b45-b95e-7d61-80fc-7f1b5dbe75b9,01a19b45-b95b-7095-8006-b2b4d6c6216c,2,en classe,2027-03-09 14:00,2027-03-09 16:00,,,confirmée,,Saisie d'origine : « 09/03/26 aprém »
+01a19b45-b960-7831-860c-ee065e1736fd,01a19b45-b95b-7095-8006-b2b4d6c6216c,3,en classe,2027-03-24 09:00,2027-03-24 11:00,,,à confirmer,,"Saisie d'origine : « 24/03/26 matin » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b966-7c42-8842-f8bcae9b41ba,01a19b45-b965-7826-a941-c30ca53c9521,1,en classe,2027-04-09 09:00,2027-04-09 11:00,,,confirmée,,Saisie d'origine : « 09/04/26 matin »
+01a19b45-b968-7172-9dcd-0c967b8b7da0,01a19b45-b965-7826-a941-c30ca53c9521,2,en classe,2027-04-30 09:00,2027-04-30 11:00,,,confirmée,,Saisie d'origine : « 30/04/26 matin »
+01a19b45-b96a-7532-9888-5a6785bed1d2,01a19b45-b965-7826-a941-c30ca53c9521,3,en classe,2027-05-21 09:00,2027-05-21 11:00,,,à confirmer,,"Saisie d'origine : « 21/05/26 matin » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b970-7873-9f1c-b9d5f5e3260f,01a19b45-b96f-7f2b-b6c5-bbc141eadf91,1,en classe,2027-01-15 09:00,2027-01-15 11:00,,,confirmée,,Saisie d'origine : « 15/01/26 matin »
+01a19b45-b972-7ecc-9b3a-afeca16b28b1,01a19b45-b96f-7f2b-b6c5-bbc141eadf91,2,en classe,2027-03-13 09:00,2027-03-13 11:00,,,confirmée,,Saisie d'origine : « 13/03/26 matin »
+01a19b45-b974-73d9-b6bc-3709076467e8,01a19b45-b96f-7f2b-b6c5-bbc141eadf91,3,en classe,2027-05-07 09:00,2027-05-07 11:00,,,à confirmer,,"Saisie d'origine : « 07/05/26 matin » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b97a-7db7-9730-8713adb19993,01a19b45-b979-78f0-a2ff-7c2e7d13d002,1,en classe,2027-04-30 14:00,2027-04-30 16:00,,,confirmée,,Saisie d'origine : « 30/04/26 aprem »
+01a19b45-b97c-7885-a45a-3f72a69fce93,01a19b45-b979-78f0-a2ff-7c2e7d13d002,2,en classe,2027-05-21 14:00,2027-05-21 16:00,,,confirmée,,Saisie d'origine : « 21/05/26 aprem »
+01a19b45-b97e-79b4-a6e8-ffda3065cf75,01a19b45-b979-78f0-a2ff-7c2e7d13d002,3,en classe,2027-06-11 14:00,2027-06-11 16:00,,,à confirmer,,"Saisie d'origine : « 11/06/26 aprem » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b984-7ca1-87c6-24d608d68e5b,01a19b45-b983-7dda-aaa9-27e6cd463d49,1,en classe,2027-03-20 09:00,2027-03-20 11:00,,,confirmée,,Saisie d'origine : « 20/03/26 matin »
+01a19b45-b986-7444-a3a1-dea22dd20c3a,01a19b45-b983-7dda-aaa9-27e6cd463d49,2,en classe,2027-04-10 09:00,2027-04-10 11:00,,,confirmée,,Saisie d'origine : « 10/04/26 matin »
+01a19b45-b988-7750-a0c3-e9d55b4d7862,01a19b45-b983-7dda-aaa9-27e6cd463d49,3,en classe,2027-04-28 09:00,2027-04-28 11:00,,,à confirmer,,"Saisie d'origine : « 28/04/26 matin » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b98e-75d2-83bb-5916388f4c24,01a19b45-b98d-74cc-876d-2d32f51afd8c,1,en classe,2027-01-09 14:00,2027-01-09 16:00,,,confirmée,,Saisie d'origine : « 09/01/26 aprém »
+01a19b45-b990-7bf6-ae2e-514d77342c58,01a19b45-b98d-74cc-876d-2d32f51afd8c,2,en classe,2027-01-23 14:00,2027-01-23 16:00,,,confirmée,,Saisie d'origine : « 23/01/26 aprém »
+01a19b45-b992-7b6c-a549-0c725312a6cd,01a19b45-b98d-74cc-876d-2d32f51afd8c,3,en classe,2027-02-06 14:00,2027-02-06 16:00,,,à confirmer,,"Saisie d'origine : « 06/02/26 aprém » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b998-780c-a9ef-7ab10730c359,01a19b45-b997-7c19-942a-617441d9acbc,1,en classe,2027-02-05 09:00,2027-02-05 11:00,,,confirmée,,Saisie d'origine : « 05/02/26 matin »
+01a19b45-b99a-7a9d-ac3f-40a1170dc4b1,01a19b45-b997-7c19-942a-617441d9acbc,2,en classe,2027-03-09 14:00,2027-03-09 16:00,,,confirmée,,Saisie d'origine : « 09/03/26 aprem »
+01a19b45-b99c-73d8-abb0-f862d780f5c8,01a19b45-b997-7c19-942a-617441d9acbc,3,en classe,2027-04-28 14:00,2027-04-28 16:00,,,à confirmer,,"Saisie d'origine : « 28/04/26 aprem » · Date proposée, en attente de l'enseignant (le « ? » de l'agenda) · Donnée fictive de test"
+01a19b45-b9a6-7363-a59d-7568e0f32241,01a19b45-b9a5-7175-bb57-af649b4ab5aa,1,en classe,2027-02-09 13:30,2027-02-09 15:30,,Présentation du projet (30 minutes). C’est quoi la biodiversité : Quiz interactif sur la biodiversité. (45 min) Jeu de r,confirmée,,
+01a19b45-b9a8-75a8-942d-7738c18caf10,01a19b45-b9a5-7175-bb57-af649b4ab5aa,2,en classe,2027-03-23 13:30,2027-03-23 15:30,,observation des petites bêtes,confirmée,,
+01a19b45-b9aa-71d4-a877-0c03b01aedfc,01a19b45-b9a5-7175-bb57-af649b4ab5aa,3,en classe,2027-04-27 13:30,2027-04-27 15:30,,observation des petites bêtes,confirmée,,
+01a19b45-b9ac-7e64-b075-ea816eff8cef,01a19b45-b9a5-7175-bb57-af649b4ab5aa,4,en classe,2027-05-11 13:30,2027-05-11 15:30,,observation des petites bêtes,confirmée,,
+01a19b45-b9ae-78c0-87ce-f7b16d8aa70b,01a19b45-b9a5-7175-bb57-af649b4ab5aa,5,en classe,2027-05-26 13:30,2027-05-26 15:30,,début du travail sur le livre numérique,confirmée,,
+01a19b45-b9b0-7a27-a9e6-46d2e551700e,01a19b45-b9a5-7175-bb57-af649b4ab5aa,6,en classe,2027-06-08 13:30,2027-06-08 15:30,,Finalisation du livre numérique,confirmée,,Reportée (voir Changement de date) · Donnée fictive de test
+01a19b45-b9bc-7413-8141-82a253853900,01a19b45-b9bb-78f6-ab86-83d9b2bc5253,1,en classe,2027-01-30 09:00,2027-01-30 11:00,,Journalistes de la mer,confirmée,,
+01a19b45-b9bd-7142-ae99-7691f7a36672,01a19b45-b9bb-78f6-ab86-83d9b2bc5253,2,visite,2027-03-02 09:00,2027-03-02 11:00,,Visite du port et activités plage,confirmée,,Saisie d'origine : « 02/03/2026 matin »
+01a19b45-b9c1-746b-9047-0f5e192aef47,01a19b45-b9c0-7f26-87c2-7a5cd22acc06,1,en classe,2027-01-30 09:00,2027-01-30 11:00,,Maquette du bassin versant des cours d'eau de chez nous,confirmée,,
+01a19b45-b9c2-7148-8987-ec0f4bf85505,01a19b45-b9c0-7f26-87c2-7a5cd22acc06,2,sortie,2027-03-05 09:00,2027-03-05 11:00,,Sortie bord de Siagne,confirmée,,Saisie d'origine : « 05/03/2026 matin »
+01a19b45-b9c6-7f5a-9331-a9fbccd94484,01a19b45-b9c5-7a53-8c94-1d4262e03dd6,1,en classe,2027-01-30 09:00,2027-01-30 11:00,,Observation des petites bêtes,confirmée,,
+01a19b45-b9c7-77aa-9d04-13de74fb97c4,01a19b45-b9c5-7a53-8c94-1d4262e03dd6,2,sortie,,,,Sortie forêt de la Valmasque,à confirmer,,Saisie d'origine : « 13/02/202 matin »
+01a19b45-b9cb-7417-9c48-387188e6823d,01a19b45-b9ca-72b0-9784-0d5e644f7ae9,1,en classe,2027-01-30 09:00,2027-01-30 11:00,,Observation des petites bêtes,confirmée,,
+01a19b45-b9cc-70bf-b8cc-5cbe04ab140e,01a19b45-b9ca-72b0-9784-0d5e644f7ae9,2,sortie,2027-02-10 09:00,2027-02-10 11:00,,Sortie forêt de la Valmasque,confirmée,,Saisie d'origine : « 10/02/2026 matin »
+01a19b45-b9d1-7524-bdf4-393978851890,01a19b45-b9d0-7f55-8e99-b1d4273a454d,1,en classe,2027-01-08 09:00,2027-01-08 11:00,,Observation des petites bêtes,confirmée,,
+01a19b45-b9d2-777f-a58a-f8d3b78af267,01a19b45-b9d0-7f55-8e99-b1d4273a454d,2,sortie,2027-01-29 09:00,2027-01-29 11:00,,Sortie forêt de la Valmasque,confirmée,,Saisie d'origine : « 29/01/2026 matin »
+01a19b45-b9d6-72f2-987f-0bc63fccf89c,01a19b45-b9d5-77d0-8a91-9c736b3ae0ee,1,en classe,2027-03-30 09:00,2027-03-30 11:00,,Maquette du bassin versant des cours d'eau de chez nous,confirmée,,
+01a19b45-b9d7-7c4c-b048-4c9f704309dc,01a19b45-b9d5-77d0-8a91-9c736b3ae0ee,2,sortie,2027-04-03 09:00,2027-04-03 11:00,,Sortie bord de Siagne,confirmée,,Saisie d'origine : « 03/04/2026 matin »
+01a19b45-b9db-7bad-a27d-12f937f3ebfc,01a19b45-b9da-7f21-bfbb-836c042f7867,1,en classe,2027-03-30 09:00,2027-03-30 11:00,,Maquette du bassin versant des cours d'eau de chez nous,confirmée,,
+01a19b45-b9dc-7772-878f-c1de08b6f768,01a19b45-b9da-7f21-bfbb-836c042f7867,2,sortie,2027-05-29 09:00,2027-05-29 11:00,,Sortie bord de Siagne,confirmée,,Saisie d'origine : « 29/05/2026 matin »
+01a19b45-b9e0-706a-9491-7337bc3a3d5d,01a19b45-b9df-7dd1-ae84-840cc459318e,1,en classe,2027-01-08 09:00,2027-01-08 11:00,,Journalistes de la mer,confirmée,,
+01a19b45-b9e1-7dea-9a2a-c8455a7cfed7,01a19b45-b9df-7dd1-ae84-840cc459318e,2,visite,2027-03-26 09:00,2027-03-26 11:00,,Visite du port et activités plage,confirmée,,Saisie d'origine : « 26/03/2026 matin »
+01a19b45-b9e5-7750-ab89-3b4b8dfe3a65,01a19b45-b9e4-7136-9629-078f378055fa,1,en classe,2027-03-27 09:00,2027-03-27 11:00,,Journalistes de la mer,confirmée,,
+01a19b45-b9e6-71c7-8ec8-c56f67c851c7,01a19b45-b9e4-7136-9629-078f378055fa,2,visite,2027-04-28 09:00,2027-04-28 11:00,,Visite du port et activités plage,confirmée,,Saisie d'origine : « 28/04/2026 matin »
+01a19b45-b9ea-7ccf-8073-82c3433ee1a0,01a19b45-b9e9-70d0-b257-37a83e8b7985,1,en classe,2027-03-24 09:00,2027-03-24 11:00,,Journalistes de la mer,confirmée,,
+01a19b45-b9eb-7442-8654-24a12b4366b3,01a19b45-b9e9-70d0-b257-37a83e8b7985,2,visite,2027-04-10 09:00,2027-04-10 11:00,,Visite du port et activités plage,confirmée,,Saisie d'origine : « 10/04/2026 matin »
+01a19b45-b9ef-7b67-8d96-3f25a1819c02,01a19b45-b9ee-7d7a-b4e6-a88c37f30b26,1,en classe,2027-01-08 09:00,2027-01-08 11:00,,Observation des petites bêtes,confirmée,,
+01a19b45-b9f0-7e60-9d9d-d1338ff59cc6,01a19b45-b9ee-7d7a-b4e6-a88c37f30b26,2,sortie,2027-01-29 09:00,2027-01-29 11:00,,Sortie forêt de la Valmasque,confirmée,,Saisie d'origine : « 29/01/2026 matin »
+01a19b45-b9f4-7f33-9744-f400778bcd50,01a19b45-b9f3-7b1b-b621-0952fa9495ca,1,en classe,2027-01-06 09:00,2027-01-06 11:00,,Observation des petites bêtes,confirmée,,
+01a19b45-b9f5-7ef2-a167-259983f713d0,01a19b45-b9f3-7b1b-b621-0952fa9495ca,2,sortie,2027-01-08 09:00,2027-01-08 11:00,,Sortie forêt de la Valmasque,confirmée,,Saisie d'origine : « 08/01/2026 matin »
+01a19b45-b9f9-74a8-8c09-22197b40fec6,01a19b45-b9f8-7f8a-a6b5-5717a682c1c3,1,en classe,2027-01-06 09:00,2027-01-06 11:00,,Journalistes de la mer,confirmée,,
+01a19b45-b9fa-7a6c-ab18-72cb1751a691,01a19b45-b9f8-7f8a-a6b5-5717a682c1c3,2,visite,2027-01-13 09:00,2027-01-13 11:00,,Visite du port et activités plage,confirmée,,Saisie d'origine : « 13/01/2026 matin »
+01a19b45-b9fe-7e28-9241-750c42643855,01a19b45-b9fd-7ec9-b8ac-8ae60b29ae83,1,en classe,2027-01-06 09:00,2027-01-06 11:00,,Journalistes de la mer,confirmée,,
+01a19b45-b9ff-78be-ba4b-0771b36151e4,01a19b45-b9fd-7ec9-b8ac-8ae60b29ae83,2,visite,2027-01-13 09:00,2027-01-13 11:00,,Visite du port et activités plage,confirmée,,Saisie d'origine : « 13/01/2026 matin »
+01a19b45-ba04-7080-be06-88131663d74c,01a19b45-ba03-776d-a49a-57a2896913c7,1,en classe,2027-01-27 09:00,2027-01-27 11:00,,Dominos de la mer,confirmée,,
+01a19b45-ba05-762d-a9db-867903df9b62,01a19b45-ba03-776d-a49a-57a2896913c7,2,en classe,2027-02-02 09:00,2027-02-02 11:00,,Chaine alimentaire forêt,confirmée,,
+01a19b45-ba06-770c-96e1-34138e4e45ae,01a19b45-ba03-776d-a49a-57a2896913c7,3,en classe,2027-02-10 09:00,2027-02-10 11:00,,Je suis une abeille,confirmée,,
+01a19b45-ba0a-7a57-bbcb-36cc4767d370,01a19b45-ba09-7665-964b-a8a3c19e5a9b,1,en classe,2027-01-27 09:00,2027-01-27 11:00,,Dominos de la mer,confirmée,,
+01a19b45-ba0b-777c-ab3e-12cba7d3f9b9,01a19b45-ba09-7665-964b-a8a3c19e5a9b,2,en classe,2027-02-02 09:00,2027-02-02 11:00,,Chaine alimentaire forêt,confirmée,,
+01a19b45-ba0c-7580-84d9-624817a88dd6,01a19b45-ba09-7665-964b-a8a3c19e5a9b,3,en classe,2027-02-10 09:00,2027-02-10 11:00,,Je suis une abeille,confirmée,,
+01a19b45-ba13-78cd-beb6-de012cfb16e6,01a19b45-ba12-752b-8c84-9a79afcc4d31,1,en classe,2027-05-18 09:00,2027-05-18 11:00,,Forms et couleusr des animaux,confirmée,,
+01a19b45-ba15-716d-a129-bdebd07ce881,01a19b45-ba12-752b-8c84-9a79afcc4d31,2,en classe,2027-05-19 09:00,2027-05-19 11:00,,Les animaux de la mer,confirmée,,
+01a19b45-ba16-77f6-b2ae-b1fcf73e88bb,01a19b45-ba12-752b-8c84-9a79afcc4d31,3,en classe,2027-05-20 09:00,2027-05-20 11:00,,Les indice de la forêt,confirmée,,
+01a19b45-ba1b-71d8-bced-268140960cf9,01a19b45-ba1a-7a64-8561-1673975cd6d2,1,en classe,2027-03-02 09:00,2027-03-02 11:00,,roi de la pluie,confirmée,,
+01a19b45-ba1c-73eb-a0ae-f10b6092d29a,01a19b45-ba1a-7a64-8561-1673975cd6d2,2,en classe,2027-03-09 09:00,2027-03-09 11:00,,indice de la forêt,confirmée,,
+01a19b45-ba1d-7981-8dc1-de06f18108d8,01a19b45-ba1a-7a64-8561-1673975cd6d2,3,en classe,2027-03-17 09:00,2027-03-17 11:00,,Graine à la plante,confirmée,,
+01a19b45-ba21-7756-b6e5-74182ceeed8c,01a19b45-ba20-7bc7-ab95-1e7757b16995,1,en classe,2027-03-03 09:00,2027-03-03 11:00,,Formes et couleurs des animaux,confirmée,,
+01a19b45-ba22-73e0-98da-990c9704364a,01a19b45-ba20-7bc7-ab95-1e7757b16995,2,en classe,2027-03-10 09:00,2027-03-10 11:00,,indice de la forêt,confirmée,,
+01a19b45-ba23-7c01-b8b1-cb6caa1bc2e3,01a19b45-ba20-7bc7-ab95-1e7757b16995,3,en classe,2027-03-17 09:00,2027-03-17 11:00,,5 sens de la nature,confirmée,,
+01a19b45-ba27-7872-9ced-46940104a2ff,01a19b45-ba26-7208-9148-da691cf65d21,1,en classe,2027-03-03 09:00,2027-03-03 11:00,,aimaux de la mer,confirmée,,
+01a19b45-ba28-7684-a5cb-4dc54fa33e0e,01a19b45-ba26-7208-9148-da691cf65d21,2,en classe,2027-03-10 09:00,2027-03-10 11:00,,indice de la forêt,confirmée,,
+01a19b45-ba29-7051-8086-8dcbf0b6459a,01a19b45-ba26-7208-9148-da691cf65d21,3,en classe,2027-03-17 09:00,2027-03-17 11:00,,5 sens de la nature,confirmée,,
+01a19b45-ba2d-7188-9f19-c99c9656c697,01a19b45-ba2c-7718-8148-4051a0170756,1,en classe,2027-03-06 09:00,2027-03-06 11:00,,Formes et couleurs des animaux,confirmée,,
+01a19b45-ba2e-7533-94fa-7c6f3a387293,01a19b45-ba2c-7718-8148-4051a0170756,2,en classe,2027-03-13 09:00,2027-03-13 11:00,,5 dsens de la forêt,confirmée,,
+01a19b45-ba2f-7117-8f49-199e719f9c8b,01a19b45-ba2c-7718-8148-4051a0170756,3,en classe,2027-03-19 09:00,2027-03-19 11:00,,indice de la forêt,confirmée,,
+01a19b45-ba33-7bd5-b229-9ee2403be948,01a19b45-ba32-74c3-94b2-5a27f0b2a517,1,en classe,2027-03-06 09:00,2027-03-06 11:00,,Formes et couleusr des animaux,confirmée,,
+01a19b45-ba34-7781-a912-b3729f3f000c,01a19b45-ba32-74c3-94b2-5a27f0b2a517,2,en classe,2027-03-13 09:00,2027-03-13 11:00,,Les animaux de la mer,confirmée,,
+01a19b45-ba35-7503-9c29-490a4be3bcf2,01a19b45-ba32-74c3-94b2-5a27f0b2a517,3,en classe,2027-03-19 09:00,2027-03-19 11:00,,Les indice de la forêt,confirmée,,
+01a19b45-ba43-758d-837e-f300b19037a2,01a19b45-ba42-760f-b885-053189c90c59,1,en classe,2025-12-12 09:00,2025-12-12 11:00,,,réalisée,,
+01a19b45-ba4b-7ae5-bf34-91b9a2e8de7c,01a19b45-ba4a-7603-bc9a-b34b71e04d0f,1,en classe,2025-12-15 09:00,2025-12-15 11:00,,,réalisée,,
+01a19b45-ba52-7f27-b29c-72d9d4536fec,01a19b45-ba51-7e1a-88ed-6b44e1c1dfa6,1,en classe,2025-12-15 10:15,2025-12-15 12:15,,,réalisée,,
+01a19b45-ba59-7e8f-a46c-71cf9f70b8ba,01a19b45-ba58-7631-ade4-2594869316c7,1,en classe,2025-12-19 09:00,2025-12-19 11:00,,,réalisée,27,
+01a19b45-ba61-76f4-a844-8908d065d4fa,01a19b45-ba60-7ff5-b90e-dbc864c2ce6b,1,en classe,2025-12-09 15:00,2025-12-09 17:00,,,réalisée,,
+01a19b45-ba67-7a07-a1a8-6f74fe5961f2,01a19b45-ba66-7842-a2cb-c51458d5a0f7,1,en classe,2025-12-09 14:00,2025-12-09 16:00,,,réalisée,25,
+01a19b45-ba6e-7d1b-93a4-b8db1b00b05a,01a19b45-ba6d-7a4c-997b-b6a369f39668,1,en classe,2025-12-18 09:00,2025-12-18 11:00,,,réalisée,18,
+01a19b45-ba75-7ff7-ab0c-1184197c673d,01a19b45-ba74-7ea7-9ad5-5473f354230d,1,en classe,2026-01-08 10:30,2026-01-08 12:30,,,réalisée,,
+01a19b45-ba7b-772c-8fb4-1bd27f74a135,01a19b45-ba7a-7710-900e-031dfdd49732,1,en classe,2025-12-18 10:15,2025-12-18 12:15,,,réalisée,,
+01a19b45-ba82-7db4-82ce-b8ad2b3c179b,01a19b45-ba81-7f39-999e-99cd1be5d38a,1,en classe,2026-01-09 09:00,2026-01-09 11:00,,,réalisée,,
+01a19b45-ba89-7c4a-93ef-16901530a3b7,01a19b45-ba88-7a23-a04d-e64c6915f7fc,1,en classe,2026-01-09 10:30,2026-01-09 12:30,,,réalisée,,
+01a19b45-ba91-7bd1-a9d5-29b94a466e1e,01a19b45-ba90-775e-86ff-c46840724b33,1,en classe,2026-01-09 13:30,2026-01-09 15:30,,,réalisée,,
+01a19b45-ba98-73f2-9b3d-bfaddf4a5fe5,01a19b45-ba97-71c1-8fb0-d4de43f6697d,1,en classe,2026-01-09 15:00,2026-01-09 17:00,,,réalisée,,
+01a19b45-ba9e-7762-9cbd-aa2c6c9f4860,01a19b45-ba9d-7a59-a7ef-f5ed5620e849,1,en classe,2026-01-08 09:00,2026-01-08 11:00,,,réalisée,,
+01a19b45-baa5-762d-9b31-5837c2b8796d,01a19b45-baa4-7039-9bb7-0bfc609de50d,1,en classe,2025-11-25 10:30,2025-11-25 12:30,,,réalisée,,
+01a19b45-baac-71d8-8dfe-be14cb10c60b,01a19b45-baab-78b7-b9c3-66f78a560810,1,en classe,2025-11-25 13:30,2025-11-25 15:30,,,réalisée,,
+01a19b45-bab2-7deb-af65-94645dfb9a8a,01a19b45-bab1-7b54-8cba-e89f2d320bd1,1,en classe,2025-11-25 14:20,2025-11-25 16:20,,,réalisée,,
+01a19b45-bab9-71af-a867-bc4e111aadf8,01a19b45-bab8-7ffa-b1db-09291dd60827,1,en classe,2025-12-01 09:00,2025-12-01 11:00,,,réalisée,,
+01a19b45-bac0-7689-897d-c11fdcb4f6ca,01a19b45-babf-7c53-81a5-250506235012,1,en classe,2025-12-08 15:00,2025-12-08 17:00,,,réalisée,,
+01a19b45-bac8-7740-9189-eea90c7fc0b5,01a19b45-bac7-7b75-a5ae-a90b9b491222,1,en classe,2025-12-18 13:30,2025-12-18 15:30,,,réalisée,22,
+01a19b45-bacf-7766-bd88-9ea5f69e75a3,01a19b45-bace-7450-b112-cdd66e043667,1,en classe,2025-12-01 10:15,2025-12-01 12:15,,,réalisée,,
+01a19b45-bad6-7db8-931f-0462f797cd65,01a19b45-bad5-7641-9c02-400513ba2c7f,1,en classe,2025-12-02 09:00,2025-12-02 11:00,,,réalisée,,
+01a19b45-badd-739a-b090-385c12ba7845,01a19b45-badc-78b3-92fa-3fdc1c790d25,1,en classe,2025-12-18 15:00,2025-12-18 17:00,,,réalisée,,
+01a19b45-bae5-75c3-b024-8f252d903bb6,01a19b45-bae4-7c28-b00a-cd2130e95ec9,1,en classe,2025-11-27 13:30,2025-11-27 15:30,,,réalisée,,
+01a19b45-baeb-7b80-b9f0-dffdef7d9ea2,01a19b45-baea-7d8d-985b-a7a48e2eb551,1,en classe,2025-11-27 14:15,2025-11-27 16:15,,,réalisée,,
+01a19b45-baf2-7f79-8228-718b1fa0b5ae,01a19b45-baf1-74e8-b534-34bf1a753279,1,en classe,2025-12-01 13:30,2025-12-01 15:30,,,réalisée,,
+01a19b45-baf9-78a7-afe8-6a0133db935a,01a19b45-baf8-7a74-b394-2e53e049bccb,1,en classe,2026-01-08 15:15,2026-01-08 17:15,,,réalisée,,
+01a19b45-baff-79da-bef3-68388a658a6e,01a19b45-bafe-755a-aed9-e0e76973ce49,1,en classe,2026-01-08 13:45,2026-01-08 15:45,,,réalisée,,
+01a19b45-bb05-7339-9cf2-c083dfb239de,01a19b45-bb04-757a-a6b1-2df2a0175600,1,en classe,2025-12-08 13:30,2025-12-08 15:30,,,réalisée,,
+01a19b45-bb0b-7057-8985-e170c209cd98,01a19b45-bb0a-7e32-a5ce-0290a2efeff5,1,en classe,2025-12-08 15:15,2025-12-08 17:15,,,réalisée,,
+01a19b45-bb12-71f3-b51a-d83a5b1e6077,01a19b45-bb11-7dca-a53c-20c4ea569848,1,en classe,2025-11-10 09:00,2025-11-10 11:00,,,réalisée,,
+01a19b45-bb19-72c1-99e2-ec527980f7de,01a19b45-bb18-7873-b887-0e8ebd70fefc,1,en classe,2025-11-10 10:15,2025-11-10 12:15,,,réalisée,,
+01a19b45-bb1f-78e5-afa5-25dad236e716,01a19b45-bb1e-76c1-8941-10056e48cbe3,1,en classe,2025-11-13 09:00,2025-11-13 11:00,,,réalisée,,
+01a19b45-bb26-7c8f-9a64-275dbd88d912,01a19b45-bb25-7ceb-a321-592ebb464d24,1,en classe,2025-11-13 10:15,2025-11-13 12:15,,,réalisée,,
+01a19b45-bb2c-7682-9f4b-b6b14f0bcb4a,01a19b45-bb2b-7ee0-b9ba-2540c613e610,1,en classe,2025-11-13 14:00,2025-11-13 16:00,,,réalisée,,
+01a19b45-bb32-7cf2-b203-6a1e560d30f0,01a19b45-bb31-776f-8721-5ae5e3b05b9f,1,en classe,2025-11-13 15:15,2025-11-13 17:15,,,réalisée,,
+01a19b45-bb38-7858-8e1e-e365b4a8f7de,01a19b45-bb37-71e9-87b7-b771af94e003,1,en classe,2026-02-10 09:00,2026-02-10 11:00,,,réalisée,,
+01a19b45-bb3a-7cf5-935d-366ff2ca864a,01a19b45-bb37-71e9-87b7-b771af94e003,2,en classe,2026-03-31 13:30,2026-03-31 15:30,,,réalisée,20,
+01a19b45-bb3c-743c-b9d2-badbf2fd4211,01a19b45-bb37-71e9-87b7-b771af94e003,3,en classe,2026-05-05 13:30,2026-05-05 15:30,,,réalisée,,
+01a19b45-bb41-7fbd-b5b5-c0d14747f6d8,01a19b45-bb40-77b3-86b6-52b846172613,1,en classe,2025-11-14 15:15,2025-11-14 17:15,,,réalisée,,
+01a19b45-bb48-7c15-a764-354c5ec8dfb1,01a19b45-bb47-79e0-97c4-6f11f69336ba,1,en classe,2025-11-14 14:00,2025-11-14 16:00,,,réalisée,19,
+01a19b45-bb4f-7c4c-8d25-b75a7d52abd8,01a19b45-bb4e-7054-84c6-4123218da4c7,1,en classe,2026-01-29 13:30,2026-01-29 15:30,,,réalisée,,
+01a19b45-bb53-727e-9828-6efbcdb75e91,01a19b45-bb4e-7054-84c6-4123218da4c7,2,en classe,2026-03-02 14:00,2026-03-02 16:00,,,réalisée,23,
+01a19b45-bb55-75f8-89ee-2fb73806c48d,01a19b45-bb4e-7054-84c6-4123218da4c7,3,en classe,2026-04-27 09:00,2026-04-27 11:00,,,réalisée,,
+01a19b45-bb5a-7e54-98ac-34e8c4d433be,01a19b45-bb59-7b1e-8770-fbd7b1a1823e,1,en classe,2025-11-18 09:00,2025-11-18 11:00,,,réalisée,,
+01a19b45-bb60-73da-82ff-7b163ecdc7de,01a19b45-bb5f-7074-af8e-45300148d345,1,en classe,2025-11-20 14:00,2025-11-20 16:00,,,réalisée,,
+01a19b45-bb66-7e00-9621-7d5df6d004d0,01a19b45-bb65-7717-8155-159f32646b02,1,en classe,2025-11-20 15:15,2025-11-20 17:15,,,réalisée,,
+01a19b45-bb6c-70ad-b0bd-ce0d6b2e5289,01a19b45-bb6b-7237-bf8f-c2ede3b07ba8,1,en classe,2025-11-20 14:00,2025-11-20 16:00,,,réalisée,,
+01a19b45-bb72-79e6-b5ed-da0d95a69010,01a19b45-bb71-72c6-b8e5-19619a82562c,1,en classe,2025-11-20 15:30,2025-11-20 17:30,,,réalisée,19,
+01a19b45-bb78-76b6-831f-ad4719cb1b74,01a19b45-bb77-7dc6-af2c-91d67c96d85d,1,en classe,2025-11-24 15:30,2025-11-24 17:30,,,réalisée,,
+01a19b45-bb7e-7505-973f-5156d2e03450,01a19b45-bb7d-7789-a711-7c5baa4a2f89,1,en classe,2025-11-24 09:00,2025-11-24 11:00,,,réalisée,,
+01a19b45-bb84-784b-96b6-73bfc94c6e85,01a19b45-bb83-76a1-bf93-54a56508e380,1,en classe,2025-11-24 10:15,2025-11-24 12:15,,,réalisée,,
+01a19b45-bb8a-7e4f-bc1d-0715e4e7dc9a,01a19b45-bb89-7748-9e60-7c394427aa3d,1,en classe,2025-11-24 14:00,2025-11-24 16:00,,,réalisée,,
+01a19b45-bb90-72bb-8fd2-c08e8455194d,01a19b45-bb8f-726f-8ece-86416543e129,1,en classe,2025-11-24 15:15,2025-11-24 17:15,,,réalisée,,
+01a19b45-bb97-727a-a19f-78d82782f16f,01a19b45-bb96-74f6-b88f-b023b444ec4b,1,en classe,2025-11-24 15:15,2025-11-24 17:15,,,réalisée,,
+01a19b45-bb9d-7b32-a23b-7abd980ae047,01a19b45-bb9c-7cc2-aec5-a228e106828e,1,en classe,2025-11-24 14:00,2025-11-24 16:00,,,réalisée,,
+01a19b45-bba3-71ed-9014-5f2e1f44a464,01a19b45-bba2-74c4-82cf-d0d7732192d7,1,en classe,2025-11-25 09:00,2025-11-25 11:00,,,réalisée,,
+01a19b45-bba9-7beb-a381-61125d4e4502,01a19b45-bba8-7975-a254-66232d9330e3,1,en classe,2026-01-29 08:45,2026-01-29 10:45,,,réalisée,,
+01a19b45-bbac-7f0e-86a6-14b67879e9ec,01a19b45-bba8-7975-a254-66232d9330e3,2,en classe,2026-03-02 09:00,2026-03-02 11:00,,,réalisée,,
+01a19b45-bbae-7655-b7c0-36b8ea53d318,01a19b45-bba8-7975-a254-66232d9330e3,3,en classe,2026-04-27 14:00,2026-04-27 16:00,,,réalisée,,
+01a19b45-bbb4-70a9-b4be-61880f959565,01a19b45-bbb3-766d-9870-b39ff5fdf7ee,1,en classe,2026-01-12 13:30,2026-01-12 15:30,,,réalisée,,
+01a19b45-bbb7-7b0b-830a-515bfeef2cba,01a19b45-bbb3-766d-9870-b39ff5fdf7ee,2,en classe,2026-03-12 09:00,2026-03-12 11:00,,,réalisée,,
+01a19b45-bbb9-7345-959a-9dc1e6bc77fc,01a19b45-bbb3-766d-9870-b39ff5fdf7ee,3,en classe,2026-04-03 14:00,2026-04-03 16:00,,,réalisée,,
+01a19b45-bbbe-7f17-9e7a-55ca338cf060,01a19b45-bbbd-710c-88b4-95155210ab6c,1,en classe,2025-11-25 10:30,2025-11-25 12:30,,,réalisée,,
+01a19b45-bbc4-7e03-ab1f-cab5b7b79b63,01a19b45-bbc3-7b98-922f-e7d7f7540c8b,1,en classe,2025-11-25 14:00,2025-11-25 16:00,,,réalisée,,
+01a19b45-bbca-78dd-96b9-fb966af0fe58,01a19b45-bbc9-7129-9dac-4e95a140135f,1,en classe,2025-11-25 15:30,2025-11-25 17:30,,,réalisée,,
+01a19b45-bbd0-70a8-9384-9d7a630c9a7f,01a19b45-bbcf-71b8-b7bc-a62340f313bd,1,en classe,2025-11-25 09:00,2025-11-25 11:00,,,réalisée,,
+01a19b45-bbd6-71e2-b7cc-021bfa511f85,01a19b45-bbd5-75e0-8079-cce72889ec58,1,en classe,2025-11-27 15:15,2025-11-27 17:15,,,réalisée,,
+01a19b45-bbdd-7cf8-a21d-09358758c0ea,01a19b45-bbdc-7dc4-8481-84a1914122a7,1,en classe,2025-11-27 14:00,2025-11-27 16:00,,,réalisée,,
+01a19b45-bbe4-7b38-b752-354bf10b637f,01a19b45-bbe3-72cc-af4d-872521789974,1,en classe,2025-11-27 08:45,2025-11-27 10:45,,,réalisée,,
+01a19b45-bbea-74a0-8bcc-d4e86549e208,01a19b45-bbe9-77c5-b6cb-447388467b2b,1,en classe,2025-11-28 10:15,2025-11-28 12:15,,,réalisée,,
+01a19b45-bbf0-7727-819d-db3b23ed2232,01a19b45-bbef-7418-a6ff-c9c4ade941ca,1,en classe,2025-11-28 09:00,2025-11-28 11:00,,,réalisée,,
+01a19b45-bbf7-7ebb-bee2-e710d48125bf,01a19b45-bbf6-7468-8a1c-e62766aded6c,1,en classe,2025-11-28 14:00,2025-11-28 16:00,,,réalisée,,
+01a19b45-bbfe-70c5-a9bf-c7f8922224c0,01a19b45-bbfd-702d-b410-285cf2d02a79,1,en classe,2025-11-28 15:30,2025-11-28 17:30,,,réalisée,,
+01a19b45-bc04-77bf-981d-bb018b3592a5,01a19b45-bc03-7638-aaac-20489a02bca1,1,en classe,2025-11-28 09:00,2025-11-28 11:00,,,réalisée,,
+01a19b45-bc0a-73e7-a0aa-4d380b79fcc1,01a19b45-bc09-7d0f-8e81-0ef54e1e9051,1,en classe,2026-01-19 08:45,2026-01-19 10:45,,,réalisée,,
+01a19b45-bc0d-7daf-91c6-a4c43e8159a0,01a19b45-bc09-7d0f-8e81-0ef54e1e9051,2,en classe,2026-02-13 14:00,2026-02-13 16:00,,,réalisée,,
+01a19b45-bc0f-7fd5-a394-8a5e6bbebbb8,01a19b45-bc09-7d0f-8e81-0ef54e1e9051,3,en classe,2026-04-03 09:00,2026-04-03 11:00,,,réalisée,,
+01a19b45-bc14-78bd-8d52-f45bba0b2c68,01a19b45-bc13-7688-946c-d28a5a9aadef,1,en classe,2025-11-28 10:30,2025-11-28 12:30,,,réalisée,28,
+01a19b45-bc1b-768d-b107-4e92e2c1388c,01a19b45-bc1a-7886-a042-fc3694aa24ad,1,en classe,2025-12-01 13:30,2025-12-01 15:30,,,réalisée,,
+01a19b45-bc21-7ab5-a858-ef3f7ff19a9d,01a19b45-bc20-7c92-9938-92c884832032,1,en classe,2025-12-01 15:15,2025-12-01 17:15,,,réalisée,,
+01a19b45-bc28-7252-9ddb-dc12f58d7dab,01a19b45-bc27-76cb-8da6-9a38ebb6a57e,1,en classe,2025-12-01 15:15,2025-12-01 17:15,,,réalisée,,
+01a19b45-bc2e-7443-9ad0-24c446ca3a78,01a19b45-bc2d-7273-8fa0-8547f9bef577,1,en classe,2025-12-02 13:30,2025-12-02 15:30,,,réalisée,,
+01a19b45-bc34-7b2d-ae90-0b5a1cee9db7,01a19b45-bc33-7352-a0c7-c9d62a6539fd,1,en classe,2025-12-02 15:15,2025-12-02 17:15,,,réalisée,,
+01a19b45-bc3a-74a3-beaa-9e45c2778297,01a19b45-bc39-7feb-9bdd-980937418b22,1,en classe,2026-01-19 13:30,2026-01-19 15:30,,,réalisée,28,
+01a19b45-bc3d-7705-a4e5-72f1a85f0ab1,01a19b45-bc39-7feb-9bdd-980937418b22,2,en classe,2026-03-12 14:00,2026-03-12 16:00,,,réalisée,,
+01a19b45-bc3f-7100-ac19-d5f7dca4d4ea,01a19b45-bc39-7feb-9bdd-980937418b22,3,en classe,2026-05-12 14:00,2026-05-12 16:00,,,réalisée,,
+01a19b45-bc44-76aa-8296-d65b65684e96,01a19b45-bc43-7b49-ae9e-5c8bbab46925,1,en classe,2026-01-15 08:45,2026-01-15 10:45,,,réalisée,,
+01a19b45-bc47-716f-95d4-41a3772b03fb,01a19b45-bc43-7b49-ae9e-5c8bbab46925,2,en classe,2026-03-10 09:00,2026-03-10 11:00,,,réalisée,,
+01a19b45-bc49-71e7-850c-62faf655f7c1,01a19b45-bc43-7b49-ae9e-5c8bbab46925,3,en classe,2026-05-05 09:00,2026-05-05 11:00,,,réalisée,,
+01a19b45-bc4e-7a34-a085-dcb3ab87eba5,01a19b45-bc4d-7f67-a4c4-a6e60709e452,1,en classe,2026-01-15 13:30,2026-01-15 15:30,,,réalisée,,
+01a19b45-bc51-77d8-8e57-92902e57e3b3,01a19b45-bc4d-7f67-a4c4-a6e60709e452,2,en classe,2026-03-10 14:00,2026-03-10 16:00,,,réalisée,,
+01a19b45-bc53-7523-b509-facc62a1a8f4,01a19b45-bc4d-7f67-a4c4-a6e60709e452,3,en classe,2026-05-05 14:00,2026-05-05 16:00,,,réalisée,,
+01a19b45-bc58-7cbf-9c25-06506e0d2a24,01a19b45-bc57-7269-9385-298e4bf627ae,1,en classe,2026-01-30 08:45,2026-01-30 10:45,,,réalisée,,
+01a19b45-bc5b-7ff0-80fa-ae5350873455,01a19b45-bc57-7269-9385-298e4bf627ae,2,en classe,2026-03-24 14:00,2026-03-24 16:00,,,réalisée,20,
+01a19b45-bc5d-79c9-9ff3-1b4c4af63c11,01a19b45-bc57-7269-9385-298e4bf627ae,3,en classe,2026-04-30 14:00,2026-04-30 16:00,,,réalisée,,
+01a19b45-bc62-7545-88c9-05e4887cec80,01a19b45-bc61-7a27-96bf-e9ff5c5e314c,1,en classe,2025-12-02 10:30,2025-12-02 12:30,,,réalisée,,
+01a19b45-bc68-7350-9c8a-c736003165c4,01a19b45-bc67-7f8c-9df2-addc8b17255e,1,en classe,2025-12-02 09:00,2025-12-02 11:00,,,réalisée,,
+01a19b45-bc6e-782d-b6da-11c5e56c7339,01a19b45-bc6d-732b-9543-5561b63446a1,1,en classe,2025-12-02 15:15,2025-12-02 17:15,,,réalisée,,
+01a19b45-bc74-7d4f-a88f-2fe0f5906542,01a19b45-bc73-7b56-9356-0ec51d5dd930,1,en classe,2026-01-16 08:45,2026-01-16 10:45,,,réalisée,,
+01a19b45-bc77-760d-8f00-18ca43539c53,01a19b45-bc73-7b56-9356-0ec51d5dd930,2,en classe,2026-03-31 09:00,2026-03-31 11:00,,,réalisée,,
+01a19b45-bc79-7efd-9ad4-94ddfe242654,01a19b45-bc73-7b56-9356-0ec51d5dd930,3,en classe,2026-05-11 09:00,2026-05-11 11:00,,,réalisée,,
+01a19b45-bc7f-7da8-89fd-19f1bef6ac56,01a19b45-bc7e-7db6-9251-2dd74a6d85c2,1,en classe,2025-12-04 09:00,2025-12-04 11:00,,,réalisée,,
+01a19b45-bc85-754e-9a90-4b6795f59b8c,01a19b45-bc84-7488-8f21-9545bcd7284f,1,en classe,2026-01-16 13:30,2026-01-16 15:30,,,réalisée,,
+01a19b45-bc88-7a05-bc54-dd833896449c,01a19b45-bc84-7488-8f21-9545bcd7284f,2,en classe,2026-03-31 14:00,2026-03-31 16:00,,,réalisée,,
+01a19b45-bc8a-790e-a550-20c061e7a5f5,01a19b45-bc84-7488-8f21-9545bcd7284f,3,en classe,2026-05-11 14:00,2026-05-11 16:00,,,réalisée,,
+01a19b45-bc8f-7761-84c5-da662422c2ff,01a19b45-bc8e-749f-b22d-e0b3e4d60753,1,en classe,2026-01-22 08:45,2026-01-22 10:45,,,réalisée,,
+01a19b45-bc92-7446-950c-619b5554b855,01a19b45-bc8e-749f-b22d-e0b3e4d60753,2,en classe,2026-03-13 09:00,2026-03-13 11:00,,,réalisée,,
+01a19b45-bc94-760e-bb92-08770b91c777,01a19b45-bc8e-749f-b22d-e0b3e4d60753,3,en classe,2026-05-19 09:00,2026-05-19 11:00,,,réalisée,,
+01a19b45-bc99-7529-85b3-85d98881833c,01a19b45-bc98-72e5-93f7-204ac14fe5cf,1,en classe,2025-12-04 10:15,2025-12-04 12:15,,,réalisée,,
+01a19b45-bc9f-7ca9-beac-76425f08a831,01a19b45-bc9e-7374-94d5-a44266210e8f,1,en classe,2025-12-04 14:00,2025-12-04 16:00,,,réalisée,,
+01a19b45-bca5-735a-a815-caf04e99b595,01a19b45-bca4-7a58-9ee0-934ba86dc766,1,en classe,2025-12-04 15:15,2025-12-04 17:15,,,réalisée,,
+01a19b45-bcab-731d-a2c9-0e5f718a3fb3,01a19b45-bcaa-7735-b5d0-ac234618c53b,1,en classe,2025-12-05 14:00,2025-12-05 16:00,,,réalisée,,
+01a19b45-bcb1-7131-858a-9292b2353301,01a19b45-bcb0-7dbf-8bac-2dfcbdbae3c0,1,en classe,2025-12-05 15:15,2025-12-05 17:15,,,réalisée,,
+01a19b45-bcb7-7506-a274-57109d53d557,01a19b45-bcb6-76d3-9515-6082e9848f7d,1,en classe,2025-12-05 09:00,2025-12-05 11:00,,,réalisée,,
+01a19b45-bcbd-7c27-bce0-577467354f21,01a19b45-bcbc-7bad-869d-0e8bf384f7b9,1,en classe,2025-12-05 10:15,2025-12-05 12:15,,,réalisée,,
+01a19b45-bcc3-7636-b283-58484782df27,01a19b45-bcc2-7b0b-b61b-380d25393001,1,en classe,2025-12-05 14:00,2025-12-05 16:00,,,réalisée,,
+01a19b45-bcc9-78db-9267-1c1f5507bfec,01a19b45-bcc8-7fbe-ab49-6bfa20d96fd6,1,en classe,2025-12-05 15:15,2025-12-05 17:15,,,réalisée,,
+01a19b45-bccf-7836-8451-8c2d60f823f6,01a19b45-bcce-77c7-94ac-e2e410471a11,1,en classe,2025-12-05 09:00,2025-12-05 11:00,,,réalisée,,
+01a19b45-bcd5-7511-9851-5859a5c8ecd5,01a19b45-bcd4-7e6f-9e6c-df3a8a7f892c,1,en classe,2025-12-05 10:30,2025-12-05 12:30,,,réalisée,,
+01a19b45-bcdb-7aa3-a393-37d8b9f2a5f6,01a19b45-bcda-7d87-a972-0b5230e2c97e,1,en classe,2026-01-22 13:30,2026-01-22 15:30,,,réalisée,,
+01a19b45-bcde-77d1-a933-df6da3ee63d8,01a19b45-bcda-7d87-a972-0b5230e2c97e,2,en classe,2026-03-13 14:00,2026-03-13 16:00,,,réalisée,,
+01a19b45-bce0-7809-be72-589ab9394f4a,01a19b45-bcda-7d87-a972-0b5230e2c97e,3,en classe,2026-05-19 14:00,2026-05-19 16:00,,,réalisée,,
+01a19b45-bce5-7429-b3e7-2e5e7d36e087,01a19b45-bce4-7115-b493-39af84c6d6a6,1,en classe,2026-01-26 13:30,2026-01-26 15:30,,,réalisée,,
+01a19b45-bce8-7d20-8ac5-5c7d4748b776,01a19b45-bce4-7115-b493-39af84c6d6a6,2,en classe,2026-03-20 09:00,2026-03-20 11:00,,,réalisée,,
+01a19b45-bcea-7162-9119-22a7124e5f37,01a19b45-bce4-7115-b493-39af84c6d6a6,3,en classe,2026-05-21 14:00,2026-05-21 16:00,,,réalisée,,
+01a19b45-bcef-7798-8add-5faa87f0d8c0,01a19b45-bcee-7500-8804-489c573bd161,1,en classe,2026-02-27 08:45,2026-02-27 10:45,,,réalisée,,
+01a19b45-bcf2-7b19-9678-dbeccc73b101,01a19b45-bcee-7500-8804-489c573bd161,2,en classe,2026-03-27 14:00,2026-03-27 16:00,,,réalisée,,
+01a19b45-bcf4-7078-965f-f84096389b2b,01a19b45-bcee-7500-8804-489c573bd161,3,en classe,2026-05-04 09:00,2026-05-04 11:00,,,réalisée,,
+01a19b45-bcf9-730e-87e5-33ebffb95f24,01a19b45-bcf8-7bc6-bd5b-fe4b36bd2398,1,en classe,2025-12-08 14:00,2025-12-08 16:00,,,réalisée,,
+01a19b45-bcff-7530-9e5c-72be1e8efb26,01a19b45-bcfe-7dc1-91cc-275a362b79c9,1,en classe,2025-12-08 15:15,2025-12-08 17:15,,,réalisée,,
+01a19b45-bd06-7321-b7aa-cd38f8e4d4fe,01a19b45-bd05-74e8-935d-a80e7ba481e0,1,en classe,2025-12-09 09:00,2025-12-09 11:00,,,réalisée,,
+01a19b45-bd0c-77a9-bcec-1917e900b41c,01a19b45-bd0b-7e3e-8ceb-31aee59bd716,1,en classe,2026-01-27 08:45,2026-01-27 10:45,,,réalisée,,
+01a19b45-bd0f-7dd7-9fe1-901940783b0a,01a19b45-bd0b-7e3e-8ceb-31aee59bd716,2,en classe,2026-04-28 14:00,2026-04-28 16:00,,,réalisée,,
+01a19b45-bd11-70a3-92fb-ac673909af7c,01a19b45-bd0b-7e3e-8ceb-31aee59bd716,3,en classe,2026-05-04 09:00,2026-05-04 11:00,,,réalisée,,
+01a19b45-bd16-7f4c-9f40-dc0cd47b66c2,01a19b45-bd15-734b-93d4-50a3e2f01cf5,1,en classe,2026-01-26 13:30,2026-01-26 15:30,,,réalisée,,
+01a19b45-bd19-7ca7-a192-593317dacb4b,01a19b45-bd15-734b-93d4-50a3e2f01cf5,2,en classe,2026-04-02 09:00,2026-04-02 11:00,,,réalisée,,
+01a19b45-bd1b-7827-ab43-6d8834ede4de,01a19b45-bd15-734b-93d4-50a3e2f01cf5,3,en classe,2026-05-04 14:00,2026-05-04 16:00,,,réalisée,26,
+01a19b45-bd21-7f15-9386-89e9c8507ae5,01a19b45-bd20-7c80-92c1-ad964acc730f,1,en classe,2026-02-03 08:45,2026-02-03 10:45,,,réalisée,,
+01a19b45-bd24-7fa0-9319-cd0e78ac05ae,01a19b45-bd20-7c80-92c1-ad964acc730f,2,en classe,2026-03-26 09:00,2026-03-26 11:00,,,réalisée,25,
+01a19b45-bd26-7060-a651-337cf39623eb,01a19b45-bd20-7c80-92c1-ad964acc730f,3,en classe,2026-05-29 09:00,2026-05-29 11:00,,,réalisée,,
+01a19b45-bd2c-72e1-a344-0b59b6b2dae0,01a19b45-bd2b-7e2b-89d6-6683ae6a4e5a,1,en classe,2026-01-06 13:45,2026-01-06 15:45,,,réalisée,,
+01a19b45-bd2f-73c2-8a89-e35d56dfb799,01a19b45-bd2b-7e2b-89d6-6683ae6a4e5a,2,en classe,2026-02-09 14:00,2026-02-09 16:00,,,réalisée,,
+01a19b45-bd31-7eba-9cb6-9269bf2e1853,01a19b45-bd2b-7e2b-89d6-6683ae6a4e5a,3,en classe,2026-04-28 14:00,2026-04-28 16:00,,,réalisée,23,
+01a19b45-bd36-794a-bdb9-b5265a9c0829,01a19b45-bd35-765f-8665-3cb5d7739fc3,1,en classe,2026-02-02 13:45,2026-02-02 15:45,,,réalisée,,
+01a19b45-bd39-7a17-916f-6cb9f8e04c40,01a19b45-bd35-765f-8665-3cb5d7739fc3,2,en classe,2026-02-09 14:00,2026-02-09 16:00,,,réalisée,,
+01a19b45-bd3b-7d83-ba7c-35b604841e8d,01a19b45-bd35-765f-8665-3cb5d7739fc3,3,en classe,2026-04-02 14:00,2026-04-02 16:00,,,réalisée,,
+01a19b45-bd40-7b38-adb7-9ab6c414a180,01a19b45-bd3f-7731-9400-f03ef692999b,1,en classe,2025-12-09 10:30,2025-12-09 12:30,,,réalisée,,
+01a19b45-bd47-784c-8887-c06ecdf40a20,01a19b45-bd46-79cd-8184-bb1d57cf0288,1,en classe,2025-12-09 15:15,2025-12-09 17:15,,,réalisée,,
+01a19b45-bd4e-71d5-acb9-8411b1905197,01a19b45-bd4d-700f-8870-376ab7c3532a,1,en classe,2025-12-09 14:00,2025-12-09 16:00,,,réalisée,,
+01a19b45-bd54-77f9-888b-eded4373bf9f,01a19b45-bd53-7cb4-bd05-0c2dd5ce96ef,1,en classe,2026-01-06 08:45,2026-01-06 10:45,,,réalisée,,
+01a19b45-bd57-790b-a6b3-e082f5bfa9c1,01a19b45-bd53-7cb4-bd05-0c2dd5ce96ef,2,en classe,2026-02-09 14:00,2026-02-09 16:00,,,réalisée,,
+01a19b45-bd59-7dfa-bac1-d628ce0a0602,01a19b45-bd53-7cb4-bd05-0c2dd5ce96ef,3,en classe,2026-04-28 14:00,2026-04-28 16:00,,,réalisée,,
+01a19b45-bd5e-70b9-b6c5-660a163532d5,01a19b45-bd5d-78a7-b286-93f0f231d73e,1,en classe,2026-01-15 13:30,2026-01-15 15:30,,,réalisée,,
+01a19b45-bd60-7175-a827-a344b613d041,01a19b45-bd5d-78a7-b286-93f0f231d73e,2,en classe,2026-09-03 09:00,2026-09-03 11:00,,,réalisée,,⚠️ Date incohérente avec l'année scolaire (erreur de saisie conservée)
+01a19b45-bd61-7b0c-b0cc-e090a1db6761,01a19b45-bd5d-78a7-b286-93f0f231d73e,3,en classe,2026-05-11 09:00,2026-05-11 11:00,,,réalisée,,
+01a19b45-bd65-701e-82b1-72f569c16231,01a19b45-bd64-7e9b-9c64-389024a6739f,1,en classe,2025-12-09 14:00,2025-12-09 16:00,,,réalisée,,
+01a19b45-bd6b-7dc6-bfbf-9dafc6615223,01a19b45-bd6a-737a-8df5-db1da54a2e1e,1,en classe,2025-12-09 15:15,2025-12-09 17:15,,,réalisée,,
+01a19b45-bd71-7b0d-9375-8ebf791da11f,01a19b45-bd70-757f-8c1d-e74e2f4568a4,1,en classe,2025-12-11 10:00,2025-12-11 12:00,,,réalisée,,
+01a19b45-bd77-739d-b793-bbdb7244f7f5,01a19b45-bd76-7283-b624-026d62536f4b,1,en classe,2025-12-11 13:30,2025-12-11 15:30,,,réalisée,,
+01a19b45-bd7d-71e8-b4ac-bd1e44487eb5,01a19b45-bd7c-702f-861d-70058d2f45c0,1,en classe,2026-01-06 08:45,2026-01-06 10:45,,,réalisée,,
+01a19b45-bd7f-77d4-9a3f-4cdeb12c9c84,01a19b45-bd7c-702f-861d-70058d2f45c0,2,en classe,2026-09-03 14:00,2026-09-03 16:00,,,réalisée,,⚠️ Date incohérente avec l'année scolaire (erreur de saisie conservée)
+01a19b45-bd80-716d-a7c1-8e8d2815bcc2,01a19b45-bd7c-702f-861d-70058d2f45c0,3,en classe,2026-05-18 09:00,2026-05-18 11:00,,,réalisée,27,
+01a19b45-bd84-7e50-a670-07e6523f175b,01a19b45-bd83-7f68-9a3a-eefcfbe91696,1,en classe,2026-01-06 13:30,2026-01-06 15:30,,,réalisée,,
+01a19b45-bd86-77bd-96a5-b0cea56d86b6,01a19b45-bd83-7f68-9a3a-eefcfbe91696,2,en classe,2026-09-06 09:00,2026-09-06 11:00,,,réalisée,,⚠️ Date incohérente avec l'année scolaire (erreur de saisie conservée)
+01a19b45-bd87-7bd9-b276-ae9e661f1e52,01a19b45-bd83-7f68-9a3a-eefcfbe91696,3,en classe,2026-05-22 14:00,2026-05-22 16:00,,,réalisée,,
+01a19b45-bd8b-7b63-aa7e-a30bad48ba17,01a19b45-bd8a-78fd-9d11-94810564450a,1,en classe,2026-01-20 13:30,2026-01-20 15:30,,,réalisée,,
+01a19b45-bd8e-793b-87ac-d4f58a1b80a5,01a19b45-bd8a-78fd-9d11-94810564450a,2,en classe,2026-03-26 14:00,2026-03-26 16:00,,,réalisée,,
+01a19b45-bd90-7287-919a-eed53820cffa,01a19b45-bd8a-78fd-9d11-94810564450a,3,en classe,2026-05-28 14:00,2026-05-28 16:00,,,réalisée,,
+01a19b45-bd96-7f0c-8753-f9bc7fb68674,01a19b45-bd95-7579-b2c2-65b7160098ec,1,en classe,2025-12-12 15:30,2025-12-12 17:30,,,réalisée,,
+01a19b45-bd9b-7ed5-84a6-5715e7b979ad,01a19b45-bd9a-74dd-a285-0a03f890f343,1,en classe,2025-12-12 13:30,2025-12-12 15:30,,,réalisée,28,
+01a19b45-bda0-7b51-b449-657cbc752789,01a19b45-bd9f-7774-9e71-b6b6ec6f390e,1,en classe,2025-12-12 14:30,2025-12-12 16:30,,,réalisée,,
+01a19b45-bda5-7f55-ab1a-fd2b93b2e81d,01a19b45-bda4-7b4b-bc01-0c44505d704f,1,en classe,2025-12-12 10:30,2025-12-12 12:30,,,réalisée,,
+01a19b45-bdab-77e1-8839-b9c4fdc7999c,01a19b45-bdaa-7544-99e5-42534723cb08,1,en classe,2026-01-20 08:45,2026-01-20 10:45,,,réalisée,,
+01a19b45-bdae-7c35-887d-583675655952,01a19b45-bdaa-7544-99e5-42534723cb08,2,en classe,2026-03-24 09:00,2026-03-24 11:00,,,réalisée,,
+01a19b45-bdb0-7ab7-b44b-5dd26c0c1c67,01a19b45-bdaa-7544-99e5-42534723cb08,3,en classe,2026-05-26 14:00,2026-05-26 16:00,,,réalisée,,
+01a19b45-bdb5-71ec-9790-c586edb35633,01a19b45-bdb4-78f0-9846-012664faaad9,1,en classe,2026-01-23 08:45,2026-01-23 10:45,,,réalisée,,
+01a19b45-bdb8-7891-b9f5-07441936eae8,01a19b45-bdb4-78f0-9846-012664faaad9,2,en classe,2026-03-23 14:00,2026-03-23 16:00,,,réalisée,,
+01a19b45-bdba-701d-8f87-593551a4d1eb,01a19b45-bdb4-78f0-9846-012664faaad9,3,en classe,2026-05-19 14:00,2026-05-19 16:00,,,réalisée,,
+01a19b45-bdbf-7778-857d-f3617b34cbe8,01a19b45-bdbe-7812-aac6-76606a43b9b9,1,en classe,2026-01-23 13:30,2026-01-23 15:30,,,réalisée,,
+01a19b45-bdc2-7336-a988-de57f36de2a0,01a19b45-bdbe-7812-aac6-76606a43b9b9,2,en classe,2026-03-23 09:00,2026-03-23 11:00,,,réalisée,,
+01a19b45-bdc4-7744-958a-e783bd03eaac,01a19b45-bdbe-7812-aac6-76606a43b9b9,3,en classe,2026-05-29 14:00,2026-05-29 16:00,,,réalisée,,
+01a19b45-bdc9-7599-9fb9-95e128b3f5c8,01a19b45-bdc8-7af5-bf1b-9f6af2f4a1dd,1,en classe,2026-01-30 13:30,2026-01-30 15:30,,,réalisée,,
+01a19b45-bdcc-7708-9c82-dedd53552b32,01a19b45-bdc8-7af5-bf1b-9f6af2f4a1dd,2,en classe,2026-03-27 09:00,2026-03-27 11:00,,,réalisée,,
+01a19b45-bdce-76a6-ba7b-7f6f20f52e85,01a19b45-bdc8-7af5-bf1b-9f6af2f4a1dd,3,en classe,2026-05-22 09:00,2026-05-22 11:00,,,réalisée,,
+01a19b45-bdd3-7766-98d0-23bc7158b3d9,01a19b45-bdd2-72fb-b2bd-fe6b63bfad41,1,en classe,2026-02-05 13:30,2026-02-05 15:30,,,réalisée,,
+01a19b45-bdd6-79c5-ad46-c628e6ab768b,01a19b45-bdd2-72fb-b2bd-fe6b63bfad41,2,en classe,2026-03-05 09:00,2026-03-05 11:00,,,réalisée,,
+01a19b45-bdd8-7a82-97f0-c21860b45822,01a19b45-bdd2-72fb-b2bd-fe6b63bfad41,3,en classe,2026-04-09 14:00,2026-04-09 16:00,,,réalisée,,
+01a19b45-bddd-7edb-be41-c75a47694dca,01a19b45-bddc-7ac6-8318-e1639131cd23,1,en classe,2025-12-12 09:00,2025-12-12 11:00,,,réalisée,26,
+01a19b45-bde4-722c-a929-5672e2065abd,01a19b45-bde3-7602-9c63-96524a192af0,1,en classe,2025-12-15 15:15,2025-12-15 17:15,,,réalisée,,
+01a19b45-bde9-7eea-bdf7-31ccd9021191,01a19b45-bde8-7a51-8f8d-9c198d184550,1,en classe,2025-12-15 14:00,2025-12-15 16:00,,,réalisée,,
+01a19b45-bdee-798c-b742-8a574dbd4f6c,01a19b45-bded-7093-b840-317f5bc84abe,1,en classe,2025-12-15 09:00,2025-12-15 11:00,,,réalisée,,
+01a19b45-bdf3-76f9-ba5f-6d240bfa754d,01a19b45-bdf2-76c6-91b0-ea5c1981bdca,1,en classe,2025-12-15 10:30,2025-12-15 12:30,,,réalisée,,
+01a19b45-bdf8-7870-8c29-4fc3789cd1b7,01a19b45-bdf7-74a0-8be2-291ce050085b,1,en classe,2025-12-15 10:30,2025-12-15 12:30,,,réalisée,,
+01a19b45-bdfe-77ce-9332-99e0ab1ca59a,01a19b45-bdfd-7993-8373-3f27f55f3139,1,en classe,2025-12-15 09:00,2025-12-15 11:00,,,réalisée,,
+01a19b45-be04-7a53-8874-e15c725d6c6a,01a19b45-be03-7a94-9d63-a36f2eb73a2c,1,en classe,2026-02-05 08:45,2026-02-05 10:45,,,réalisée,,
+01a19b45-be07-7569-8c25-88707ebb1ce6,01a19b45-be03-7a94-9d63-a36f2eb73a2c,2,en classe,2026-03-05 14:00,2026-03-05 16:00,,,réalisée,,
+01a19b45-be09-721b-97e5-d67fac7963fe,01a19b45-be03-7a94-9d63-a36f2eb73a2c,3,en classe,2026-04-09 09:00,2026-04-09 11:00,,,réalisée,,
+01a19b45-be0e-741e-a0ff-793f067e29eb,01a19b45-be0d-7efd-97b3-88c2a55c2440,1,en classe,2026-02-06 13:30,2026-02-06 15:30,,,réalisée,,
+01a19b45-be11-7702-93a8-3cd0e291ab4a,01a19b45-be0d-7efd-97b3-88c2a55c2440,2,en classe,2026-03-06 09:00,2026-03-06 11:00,,,réalisée,,
+01a19b45-be13-7494-b243-967745644e6d,01a19b45-be0d-7efd-97b3-88c2a55c2440,3,en classe,2026-05-18 14:00,2026-05-18 16:00,,,réalisée,,
+01a19b45-be18-7629-96bc-a737c9381768,01a19b45-be17-79fa-997c-348331411cd2,1,en classe,2026-02-06 08:45,2026-02-06 10:45,,,réalisée,,
+01a19b45-be1b-7f8d-af7a-280dfe31b963,01a19b45-be17-79fa-997c-348331411cd2,2,en classe,2026-03-06 14:00,2026-03-06 16:00,,,réalisée,,
+01a19b45-be1d-7819-82fa-9801041279fc,01a19b45-be17-79fa-997c-348331411cd2,3,en classe,2026-04-10 09:00,2026-04-10 11:00,,,réalisée,,
+01a19b45-be22-70b1-9a1e-6e3808745313,01a19b45-be21-7098-b3bd-c9755dc7705b,1,en classe,2025-12-16 10:30,2025-12-16 12:30,,,réalisée,,
+01a19b45-be28-7b10-8943-82e4151ccd6a,01a19b45-be27-78ad-bbfc-05bd885655e9,1,en classe,2025-12-18 15:15,2025-12-18 17:15,,,réalisée,,
+01a19b45-be2f-77ff-ada8-e1eafbc83e49,01a19b45-be2e-744b-8ac7-e16b5fec2ecf,1,en classe,2025-12-18 14:00,2025-12-18 16:00,,,réalisée,,
+01a19b45-be35-7a5b-953d-14777d31250b,01a19b45-be34-7b5a-8897-25b9f25b1a30,1,en classe,2025-12-18 09:00,2025-12-18 11:00,,,réalisée,,
+01a19b45-be3b-7186-8da4-b3358779be48,01a19b45-be3a-71d5-a6ac-f2841144f6f4,1,en classe,2026-01-12 08:45,2026-01-12 10:45,,,réalisée,,
+01a19b45-be3e-765d-b188-9bab30598247,01a19b45-be3a-71d5-a6ac-f2841144f6f4,2,en classe,2026-03-03 09:00,2026-03-03 11:00,,,réalisée,,
+01a19b45-be40-7177-bc16-5712082c00e1,01a19b45-be3a-71d5-a6ac-f2841144f6f4,3,en classe,2026-04-28 09:00,2026-04-28 11:00,,,réalisée,,
+01a19b45-be45-702b-9651-8bc625bcd903,01a19b45-be44-71d5-ad9f-e7d9e4fdb913,1,en classe,2026-02-12 13:30,2026-02-12 15:30,,,réalisée,,
+01a19b45-be48-7d4b-85cc-fdeca205210f,01a19b45-be44-71d5-ad9f-e7d9e4fdb913,2,en classe,2026-03-30 09:00,2026-03-30 11:00,,,réalisée,,
+01a19b45-be4a-7548-a1be-953e8c13e87f,01a19b45-be44-71d5-ad9f-e7d9e4fdb913,3,en classe,2026-05-18 09:00,2026-05-18 11:00,,,réalisée,,
+01a19b45-be4f-720c-9060-5cbc6ac0afa2,01a19b45-be4e-7721-9d2e-3dfd68c17cf6,1,en classe,2025-12-18 10:30,2025-12-18 12:30,,,réalisée,24,
+01a19b45-be55-7b47-bd9e-be54b7e5c0d8,01a19b45-be54-7454-9f3c-9acc198d71eb,1,en classe,2025-12-18 09:00,2025-12-18 11:00,,,réalisée,,
+01a19b45-be5d-7dac-b426-cb9230290644,01a19b45-be5c-7d36-bede-9921ca70b236,1,en classe,2026-02-12 08:45,2026-02-12 10:45,,,réalisée,,
+01a19b45-be60-72b4-8c10-79a5f720af50,01a19b45-be5c-7d36-bede-9921ca70b236,2,en classe,2026-03-30 14:00,2026-03-30 16:00,,,réalisée,,
+01a19b45-be62-7ff4-af75-01c69c13975e,01a19b45-be5c-7d36-bede-9921ca70b236,3,en classe,2026-05-07 14:00,2026-05-07 16:00,,,réalisée,,
+01a19b45-be67-7271-b8d7-34b8bad46f84,01a19b45-be66-778f-b0b2-0542513a1c3d,1,en classe,2026-02-13 08:45,2026-02-13 10:45,,,réalisée,,
+01a19b45-be6a-7e50-be6a-c4f3d1a1e5d2,01a19b45-be66-778f-b0b2-0542513a1c3d,2,en classe,2026-04-07 14:00,2026-04-07 16:00,,,réalisée,,
+01a19b45-be6c-7c0e-bdc2-a799734ff2e2,01a19b45-be66-778f-b0b2-0542513a1c3d,3,en classe,2026-05-07 09:00,2026-05-07 11:00,,,réalisée,,
+01a19b45-be71-75c9-96fd-343bdbdbe6fc,01a19b45-be70-7990-8d80-8fa631977ed0,1,en classe,2026-02-10 13:30,2026-02-10 15:30,,,réalisée,,
+01a19b45-be73-71a2-a782-2561e06e51e8,01a19b45-be70-7990-8d80-8fa631977ed0,2,en classe,2026-03-31 09:00,2026-03-31 11:00,,,réalisée,,
+01a19b45-be75-7825-a924-0bb41cdbe823,01a19b45-be70-7990-8d80-8fa631977ed0,3,en classe,2026-05-05 09:00,2026-05-05 11:00,,,réalisée,,
+01a19b45-be7b-7dbd-ac58-b6fedfa4af05,01a19b45-be7a-71b0-aef5-b6117607dbbd,1,en classe,2025-12-19 08:30,2025-12-19 10:30,,,réalisée,,
+01a19b45-be81-7599-88a3-94b343f9e992,01a19b45-be80-78cd-a4e1-0f37e0878bec,1,en classe,2025-12-19 09:30,2025-12-19 11:30,,,réalisée,,
+01a19b45-be87-7077-92b5-3ce6463e75f7,01a19b45-be86-7307-86ce-fd5c8575e380,1,en classe,2026-01-13 13:30,2026-01-13 15:30,,,réalisée,,
+01a19b45-be8a-7f9f-b6cb-ac73ded3e91e,01a19b45-be86-7307-86ce-fd5c8575e380,2,en classe,2026-03-09 09:00,2026-03-09 11:00,,,réalisée,,
+01a19b45-be8c-74ee-9706-dc79fe13be4a,01a19b45-be86-7307-86ce-fd5c8575e380,3,en classe,2026-04-30 09:00,2026-04-30 11:00,,,réalisée,,
+01a19b45-be91-7cca-9683-16c843123efb,01a19b45-be90-78b9-ba92-18694351c44a,1,en classe,2026-02-03 13:30,2026-02-03 15:30,,,réalisée,,
+01a19b45-be94-707f-9931-14ae4ae49e93,01a19b45-be90-78b9-ba92-18694351c44a,2,en classe,2026-03-09 14:00,2026-03-09 16:00,,,réalisée,,
+01a19b45-be96-7972-b7de-e4aeb8b90bc8,01a19b45-be90-78b9-ba92-18694351c44a,3,en classe,2026-04-07 14:00,2026-04-07 16:00,,,réalisée,,
+01a19b45-be9b-7d64-9a9c-450490fb0949,01a19b45-be9a-7108-8834-9befbf68017c,1,en classe,2025-12-19 10:30,2025-12-19 12:30,,,réalisée,,
+01a19b45-bea1-7085-8fa5-804133a78631,01a19b45-bea0-7ea0-8091-81ab27a0dac1,1,en classe,2026-03-10 16:00,2026-03-10 18:00,,,réalisée,,
+01a19b45-bea3-75d0-9970-47884929e2d7,01a19b45-bea0-7ea0-8091-81ab27a0dac1,2,en classe,2026-03-24 15:30,2026-03-24 17:30,,,réalisée,,
+01a19b45-bea5-7743-95e0-49af79557d0d,01a19b45-bea0-7ea0-8091-81ab27a0dac1,3,en classe,2026-03-31 16:00,2026-03-31 18:00,,,réalisée,,
+01a19b45-beab-78d8-8504-f7f2188f29b2,01a19b45-beaa-7fe8-9ca6-8c700f4d4b3a,1,en classe,2026-01-13 11:00,2026-01-13 13:00,,,réalisée,,
+01a19b45-beb2-7e2f-bfcc-8542dd67ee30,01a19b45-beb1-79ad-bf43-867637316200,1,en classe,2025-12-17 08:00,2025-12-17 10:00,,,réalisée,,
+01a19b45-beb8-7937-8f53-de0f950af19d,01a19b45-beb7-7d41-919a-8c8bbc26eaa5,1,en classe,2026-01-15 13:00,2026-01-15 15:00,,,réalisée,28,
+01a19b45-beba-7470-8e65-54d7c29ee2b9,01a19b45-beb7-7d41-919a-8c8bbc26eaa5,2,en classe,2026-03-03 09:30,2026-03-03 11:30,,,réalisée,,
+01a19b45-bebc-7a70-bec4-8ea8b6cd1524,01a19b45-beb7-7d41-919a-8c8bbc26eaa5,3,en classe,2026-04-30 14:30,2026-04-30 16:30,,,réalisée,,
+01a19b45-bec2-78fe-a195-3d0c099a27cc,01a19b45-bec1-744a-bbe4-a64e448e62a3,1,en classe,2026-01-29 10:20,2026-01-29 12:20,,,réalisée,,
+01a19b45-bec4-7a1d-9476-bc1f9a18f6cb,01a19b45-bec1-744a-bbe4-a64e448e62a3,2,en classe,2026-04-10 10:20,2026-04-10 12:20,,,réalisée,,
+01a19b45-bec6-7dbd-a164-c999e90a0aa7,01a19b45-bec1-744a-bbe4-a64e448e62a3,3,en classe,2026-05-26 12:30,2026-05-26 14:30,,,réalisée,,
+01a19b45-becb-7e45-9b56-e44da1539ece,01a19b45-beca-7613-88b0-0d99f1255908,1,en classe,2025-12-16 12:45,2025-12-16 14:45,,,réalisée,,
+01a19b45-bed1-7ec0-be42-45e74b7418d3,01a19b45-bed0-76c5-8648-27c790c371b4,1,en classe,2025-12-16 13:45,2025-12-16 15:45,,,réalisée,,
+01a19b45-bed7-7fc1-9d89-6b3dcbc6dbc8,01a19b45-bed6-752d-bc01-c91ed1f77f2f,1,en classe,2025-12-16 14:45,2025-12-16 16:45,,,réalisée,,
+01a19b45-bedd-7e56-9e31-394226a10e86,01a19b45-bedc-7544-b816-2b9f933a1e4c,1,en classe,2025-12-15 13:00,2025-12-15 15:00,,,réalisée,22,
+01a19b45-bee3-7bc5-8c3f-12c31f7716f0,01a19b45-bee2-75c0-8463-43fbcc051239,1,en classe,2025-12-15 14:00,2025-12-15 16:00,,,réalisée,,
+01a19b45-bee9-7788-891d-1f80ba603405,01a19b45-bee8-7fa1-85bd-053ebadd340d,1,en classe,2025-12-15 15:00,2025-12-15 17:00,,,réalisée,,
+01a19b45-beef-73c8-8fa6-cbe5da085443,01a19b45-beee-79f2-bde8-ff9ca0fbe6c9,1,en classe,2025-12-15 16:00,2025-12-15 18:00,,,réalisée,,
+01a19b45-bef5-7f72-bad3-fd95563e6b13,01a19b45-bef4-7f8f-b471-d242804a88e3,1,en classe,2025-12-17 09:00,2025-12-17 11:00,,,réalisée,,
+01a19b45-befb-7d15-a0dc-a1e175ec6409,01a19b45-befa-7680-9cf6-78f8c26c77d6,1,en classe,2025-12-17 10:00,2025-12-17 12:00,,,réalisée,,
+01a19b45-bf01-7a9e-9305-f6786d201805,01a19b45-bf00-7a22-a65a-ea433d6d8b37,1,en classe,2025-12-17 11:00,2025-12-17 13:00,,,réalisée,,
+01a19b45-bf08-7490-b712-1b23df9d5a17,01a19b45-bf07-7bd6-8b55-3143d17bfa42,1,en classe,2026-01-08 13:00,2026-01-08 15:00,,,réalisée,,

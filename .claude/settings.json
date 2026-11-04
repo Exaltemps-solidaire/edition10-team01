@@ -1,0 +1,110 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(npm test*)",
+      "Bash(npm install)",
+      "Bash(npm ci)",
+      "Bash(npx vitest*)",
+      "Bash(npx playwright*)",
+      "Bash(mkdir -p .iterations*)",
+      "Bash(date*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(echo $((*)",
+      "Bash(npm run build)",
+      "Bash(npm run lint)",
+      "Bash(npm run dev)",
+      "Bash(npm run demo)",
+      "Bash(docker compose up*)",
+      "Bash(docker compose down*)",
+      "Bash(docker compose build*)",
+      "Bash(docker compose ps*)",
+      "Bash(docker compose logs*)",
+      "Bash(./scripts/recuperer-passation.sh *)",
+      "Bash(./scripts/signaler-version.sh *)",
+      "Bash(./scripts/verifier-deployabilite.sh*)",
+      "Bash(git push)",
+      "Bash(git push origin *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git add -f*)",
+      "Bash(git add --force*)",
+      "Read(./.env)",
+      "Read(./.env.local)",
+      "Read(./.env.*.local)",
+      "Read(./.env.development)",
+      "Read(./.env.production)",
+      "Read(./.env.staging)",
+      "Read(./.env.test)",
+      "Bash(docker compose run*)",
+      "Bash(docker compose exec*)",
+      "Bash(docker run*)",
+      "Bash(docker exec*)",
+      "Bash(git add * -f*)",
+      "Bash(git add *--force*)",
+      "Bash(git add *passation*)",
+      "Bash(git commit *--no-verify*)",
+      "Bash(git commit -n*)",
+      "Bash(git commit * -n *)"
+    ],
+    "ask": [
+      "Bash(git reset --hard*)",
+      "Bash(git clean -f*)",
+      "Bash(git checkout -- *)",
+      "Bash(sudo *)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=$(jq -r '.tool_response.filePath // .tool_input.file_path'); case \"$f\" in *.ts|*.tsx|*.js|*.jsx|*.mjs|*.cjs) case \"$f\" in */frontend/*) d=\"$CLAUDE_PROJECT_DIR/frontend\" ;; *) d=\"$CLAUDE_PROJECT_DIR\" ;; esac; cd \"$d\" && npx --no-install eslint \"$f\" 1>&2 || exit 2 ;; esac",
+            "statusMessage": "Linting changed file..."
+          }
+        ]
+      },
+      {
+        "matcher": "Bash|Write|Edit|Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/tracer.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/alarme-budget.sh"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/verifier-avant-signal.sh",
+            "statusMessage": "Le harnais vérifie que la version est finie..."
+          }
+        ]
+      }
+    ]
+  }
+}

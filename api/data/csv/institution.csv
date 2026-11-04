@@ -1,0 +1,68 @@
+id,nom,categorie,secteur,commune,adresse
+01a19b45-b874-78c0-91cb-4ea7b5fc684a,Communauté d'agglomération du Pays de Grasse,EPCI,public,Grasse,
+01a19b45-b875-7320-88be-3b07662f286b,Ville de Mougins,commune,public,Mougins,
+01a19b45-b876-72c7-abe4-8123a5b0e526,Communauté d'agglomération Cannes Pays de Lérins,EPCI,public,Cannes,
+01a19b45-b877-78b6-a5f2-74190b94a014,Méditerranée 2000,association,privé,Cannes,
+01a19b45-b88a-7867-8bee-23b086f9fa21,élémentaire LE BAYLE,école,public,Auribeau,166 Chemin des Cannebiers
+01a19b45-b897-7917-8051-ac7c8e48e488,Lycée Tocqueville,lycée,public,Grasse,22 chemin de l'Orme
+01a19b45-b8a4-7038-9018-d7f54191590c,saint jacques,école,public,Grasse,place frederic mistral
+01a19b45-b8ae-79d6-b6d6-e11fa79b8a2e,Collège Carnot,collège,public,Grasse,6 bd Carnot
+01a19b45-b8c7-7c6c-bd43-281c608f02b1,Jean Rostand,école,public,Pegomas,Avenue du Castellaras
+01a19b45-b8d4-7dda-a674-5fca09baf21c,Ecole Marie Curie,école,public,Pégomas,805 route de la Fénerie
+01a19b45-b8ed-743e-bb23-5be28bf6237b,Collège Paul Arène,collège,public,Peymeinade,23 chemin du stade
+01a19b45-b926-7cdb-94e5-205b68e217ff,Ecole Spéracedes,école,public,Spéracèdes,
+01a19b45-b938-7f3e-a20b-6436d8ec586b,Le Bayle,école,public,Auribeau-sur-siagne,Chemin des Cannebiers
+01a19b45-b942-7098-8302-4fa456b817fe,Ecole élémentaire Jean Crabalona,école,public,Grasse,64 route de Cannes
+01a19b45-b94e-72ba-ac53-18429b2831e1,Ecole JEAN CRABALONA,école,public,Grasse,50 route de cannes
+01a19b45-b958-758d-97f3-6ca6575d36c5,Ecole de Saint-François,école,public,Grasse,163 Bd Schley
+01a19b45-b962-794c-b7e2-21464dd75f67,EM CAMPAGNO,école,public,Le Tignet,quartier de l'Istre
+01a19b45-b96c-72e5-9c2e-282656f0a1e4,Ecole primaire Frédéric Mistral,école,public,Peymeinade,165 avenue de Boutiny
+01a19b45-b976-7206-86cd-bae5db0102de,Ecole élémentaire Saint-Exupéry,école,public,Peymeinade,"250, avenue de PEYGROS"
+01a19b45-b980-724e-ba8e-d768273210d0,ECOLE EMILE FELIX,école,public,Saint-Vallier-de-Thiey,AV Désiré Pignatta
+01a19b45-b98a-72fb-8059-08510dbb8889,Marie Curie,école,public,Pégomas,805 route de la Fénerie
+01a19b45-b994-7180-8ee4-2d4c01efc27d,Ecole Primaire Maxime Coullet,école,public,Saint-Cézaire-sur-siagne,82 bd Antoine Cresp
+01a19b45-b9a2-735a-b47d-a8645cfa1862,École (classe de CP/CE1 du projet explorateur),école,public,Grasse,
+01a19b45-b9b8-75bf-b83c-61f038fbc043,Mougins le Haut,école,public,Mougins,
+01a19b45-b9cd-7123-b884-4e5abfb9ec94,St Martin de Gioue,école,public,Mougins,
+01a19b45-ba00-7a2a-8c25-ed7c2ae796b5,3  collines,école,public,Mougins,
+01a19b45-ba14-7004-a380-ff921d88e652,St Martin en forêt,école,public,Mougins,
+01a19b45-ba17-7ab9-ab2b-49c6a117bdc5,Les Cabriére,école,public,Mougins,
+01a19b45-ba3f-7a51-95d2-310599ff51ed,Marie Curie,école,public,Mandelieu-La-Napoule,
+01a19b45-ba47-7323-9324-e5299f067c31,Primervers,école,public,Mandelieu-La-Napoule,
+01a19b45-ba4e-7566-838a-ed3398bc7fa9,Cottage Primevères,école,public,Mandelieu-La-Napoule,
+01a19b45-ba55-759a-818a-eb759d40c7ce,Jules Ferry,école,public,Le Cannet,
+01a19b45-ba5d-7dd6-be3b-4bbfdd146260,Jacqueline de Romilly,école,public,Cannes,
+01a19b45-ba6a-7e3c-98c2-2f2500e164e8,Val des Pins,école,public,Le Cannet,
+01a19b45-ba71-72e6-982d-976b57441efc,La Croisette,école,public,Cannes,
+01a19b45-ba7e-76d8-ae70-8b91685be8e8,Frederic Mistral,école,public,Cannes,
+01a19b45-ba8d-7d32-bddc-0d5f3be343de,Alexandre Dumas,école,public,Cannes,
+01a19b45-baa1-7fe3-92dd-e7e8de8f5d0a,La Frayère,école,public,Cannes,
+01a19b45-bab5-7842-895b-f10a9cce902e,Saint Exupéry,école,public,Cannes,
+01a19b45-bac4-74fd-aa26-b86f0d12833e,Mont Chevalier,école,public,Cannes,
+01a19b45-bad2-7b0b-8d24-2df9c351a260,Rebuffel,école,public,Mougins,
+01a19b45-bad9-7382-8d6d-f84546c569ce,Miniconi,école,public,Cannes,
+01a19b45-bae1-740a-8d63-2e1431b6130e,BOCCA CENTRE,école,public,Cannes,
+01a19b45-baee-7448-a6df-8bfd4e2eccd4,Goscinny,école,public,Cannes,
+01a19b45-baf5-7219-8c73-cb9648b0d659,Maurice Alice,école,public,Cannes,
+01a19b45-bb0e-778c-8a1d-c81d9930a903,Saint Jean,école,public,Le Cannet,
+01a19b45-bb4b-7e24-8e02-482311cb8406,FANFARIGOULE,école,public,Mandelieu-La-Napoule,
+01a19b45-bb93-72cb-bb29-6c01caebd022,MARCEL PAGNOL,école,public,Cannes,
+01a19b45-bbb0-7184-a22f-577282e86694,Frédéric Mistral,école,public,Mandelieu-La-Napoule,
+01a19b45-bbe0-73a3-937d-dd7710d8fcc5,Devens,école,public,Mougins,
+01a19b45-bbf3-79d0-a818-2bc0b48cd783,Saint Joseph,école,public,Cannes,
+01a19b45-bc24-7db0-aac8-c43d20b581f0,Pasteur,école,public,Le Cannet,
+01a19b45-bc7b-79e4-bf51-3248ab53bb4e,Val des Fées,école,public,Le Cannet,
+01a19b45-bd02-7679-a777-3acc3067ddf1,Cottage Mimosas,école,public,Mandelieu-La-Napoule,
+01a19b45-bd1d-7f72-9dd6-66dfb21e45ed,La Verrerie,école,public,Cannes,
+01a19b45-bd28-724a-a296-5e0c4c4f35b2,Les Cabrieres,école,public,Mougins,
+01a19b45-bd43-73b3-afc3-7df785c7972c,Les Mûriers,école,public,Cannes,
+01a19b45-bd4a-7355-847b-0c70cd926f21,MISTRAL,école,public,Mandelieu-La-Napoule,
+01a19b45-bd73-778a-bcfe-9060ba33cb9f,Marice Alice I,école,public,Cannes,
+01a19b45-bd92-7f1f-b89c-fb3f077c435c,Eugène Vial,école,public,Cannes,
+01a19b45-bde0-7c6b-af1a-1cdbbed23f56,Maurice Alice II,école,public,Cannes,
+01a19b45-be59-7567-ab30-85daca239339,Maurice Alice I,école,public,Cannes,
+01a19b45-be77-753a-a23e-c7218d39cb85,STANISLAS,école,public,Cannes,
+01a19b45-bea7-7545-a21d-08233b267d0d,André Capron,collège,public,Cannes,
+01a19b45-beae-7033-b165-b9307fa896ec,Bristol,lycée,public,Cannes,
+01a19b45-bebe-7930-b22d-9986177b1cf4,Albert Camus,collège,public,Mandelieu-La-Napoule,
+01a19b45-bf04-78d1-8fb3-169965983e0b,LES VALLERGUES,collège,public,Cannes,

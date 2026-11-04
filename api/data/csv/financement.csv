@@ -1,0 +1,7 @@
+id,projet_id,institution_id,type,lot,perimetre,info_a_chaque_changement
+01a19b45-b888-784d-9366-ece22d4d6661,01a19b45-b881-76cd-85d6-ac4263d52b10,01a19b45-b874-78c0-91cb-4ea7b5fc684a,prestation,,tout le projet,False
+01a19b45-b936-7ec7-8464-352dadde68d0,01a19b45-b933-78c8-858f-7eb666426014,01a19b45-b874-78c0-91cb-4ea7b5fc684a,prestation,,tout le projet,False
+01a19b45-b9a0-7b89-ac06-6c64ded258fe,01a19b45-b99e-75f4-b674-67387e9b56d2,01a19b45-b874-78c0-91cb-4ea7b5fc684a,prestation,,tout le projet,False
+01a19b45-b9b6-71b8-a350-86b5fc15b536,01a19b45-b9b2-765d-9d7f-8476bd37cd94,01a19b45-b875-7320-88be-3b07662f286b,subvention,,tout le projet,False
+01a19b45-ba3c-7536-aa29-39cfb13ce642,01a19b45-ba36-71a0-ab0c-044dd16d3411,01a19b45-b876-72c7-abe4-8123a5b0e526,appel d'offres (lot),lot A (écoles primaires),classes listées,True
+01a19b45-ba3d-719f-8cd2-fa2d2a76f010,01a19b45-ba36-71a0-ab0c-044dd16d3411,01a19b45-b876-72c7-abe4-8123a5b0e526,appel d'offres (lot),lot B (collèges et lycées),classes listées,True

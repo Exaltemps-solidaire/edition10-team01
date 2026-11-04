@@ -1,0 +1,18 @@
+id,type,modele_id,seance_id,destinataire_id,expediteur,copie_coordinatrice,statut,envoye_le
+01a19b45-bf0b-7641-9ce7-11c2d6518070,rappel J-7,01a19b45-b87e-7e52-8450-74a1e1f66c3a,01a19b45-b8e4-794a-ac64-2a30c9e39659,01a19b45-b8e1-7759-9bee-8f775fee13c8,boîte de la coordinatrice,True,à envoyer,
+01a19b45-bf0c-7afb-8517-6db20ac038e7,rappel J-7,01a19b45-b87e-7e52-8450-74a1e1f66c3a,01a19b45-b8e6-7275-a919-0876a0c5b20c,01a19b45-b8e1-7759-9bee-8f775fee13c8,boîte de la coordinatrice,True,à envoyer,
+01a19b45-bf0d-70bf-a5ee-69b61398a28e,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bc8a-790e-a550-20c061e7a5f5,01a19b45-bc82-7812-a427-3c7b8cd27c2a,boîte de la coordinatrice,False,envoyé,2026-04-11 14:00
+01a19b45-bf0e-72b1-8342-d169e24b416c,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bcf4-7078-965f-f84096389b2b,01a19b45-bcec-7344-8dfc-87e79df86a20,boîte de la coordinatrice,False,envoyé,2026-04-04 09:00
+01a19b45-bf0f-71e6-9f72-46b841f2dab7,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-be45-702b-9651-8bc625bcd903,01a19b45-be42-70ce-a06a-bcfaf33e46ab,boîte de la coordinatrice,False,envoyé,2026-01-13 13:30
+01a19b45-bf10-744a-8375-74c68bfdbc08,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bab9-71af-a867-bc4e111aadf8,01a19b45-bab6-71b8-a07f-149f4a019b41,boîte de la coordinatrice,False,envoyé,2025-11-01 09:00
+01a19b45-bf11-75f2-8771-989f7d2b8335,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bc21-7ab5-a858-ef3f7ff19a9d,01a19b45-bc1e-7018-9cc6-0b5c16a3d845,boîte de la coordinatrice,False,envoyé,2025-11-01 15:15
+01a19b45-bf12-72ba-a52b-0898565a0dcf,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bc92-7446-950c-619b5554b855,01a19b45-bc8c-718b-be97-1155daaa2cd2,boîte de la coordinatrice,False,envoyé,2026-02-11 09:00
+01a19b45-bf13-7f13-854b-4482cdee9e68,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bee9-7788-891d-1f80ba603405,01a19b45-bee6-7bd2-b36c-78adf2827bc5,boîte de la coordinatrice,False,envoyé,2025-11-15 15:00
+01a19b45-bf14-7aca-bfe1-3b72cc89857c,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bc0d-7daf-91c6-a4c43e8159a0,01a19b45-bc07-7495-812e-c95248052efd,boîte de la coordinatrice,False,envoyé,2026-01-14 14:00
+01a19b45-bf15-7c58-a30f-3c01bddb082f,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-be04-7a53-8874-e15c725d6c6a,01a19b45-be01-7b35-a3b2-62eef6bcf70e,boîte de la coordinatrice,False,envoyé,2026-01-06 08:45
+01a19b45-bf16-7ec5-952c-c22787e8995f,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bb3a-7cf5-935d-366ff2ca864a,01a19b45-bb35-76b1-907e-30febea757ef,boîte de la coordinatrice,False,envoyé,2026-03-01 13:30
+01a19b45-bf17-7552-9ad5-7e37301b2162,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bcd5-7511-9851-5859a5c8ecd5,01a19b45-bcd2-71ea-aaaa-8af7c5f563bc,boîte de la coordinatrice,False,envoyé,2025-11-05 10:30
+01a19b45-bf18-7837-baa6-d0319567ae21,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bb84-784b-96b6-73bfc94c6e85,01a19b45-bb81-73af-b77f-5350f7d42415,boîte de la coordinatrice,False,envoyé,2025-10-25 10:15
+01a19b45-bf19-7322-9e1c-5fbbfa5abd2f,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bed1-7ec0-be42-45e74b7418d3,01a19b45-bece-75c2-9531-bb0892dbccda,boîte de la coordinatrice,False,envoyé,2025-11-16 13:45
+01a19b45-bf1a-72e2-b7f3-c4cbec770c6b,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bd77-739d-b793-bbdb7244f7f5,01a19b45-bd74-7022-802e-d0ef06cec573,boîte de la coordinatrice,False,envoyé,2025-11-11 13:30
+01a19b45-bf1b-760b-a076-500823fbb10a,confirmation,01a19b45-b87d-7c90-b7fe-43eb87a9ec13,01a19b45-bed7-7fc1-9d89-6b3dcbc6dbc8,01a19b45-bed4-720f-bf24-fd75f7f61455,boîte de la coordinatrice,False,envoyé,2025-11-16 14:45

@@ -1,0 +1,1527 @@
+{
+ "version": "v1",
+ "date": "2026-11-02",
+ "source": "glossaire validé le 16/10/2026, échanges jusqu'au 30/10/2026",
+ "entites": [
+  {
+   "key": "programme",
+   "nom": "Programme",
+   "zone": "entree",
+   "terme": "Programme",
+   "desc": "Le contenu pédagogique réutilisable d'une année sur l'autre (les animations), présenté dans un catalogue PDF.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "titre",
+     "t": "texte",
+     "note": "« Culture du risque inondation »",
+     "f": ""
+    },
+    {
+     "n": "thematiques",
+     "t": "tags (multi)",
+     "note": "déchets, eau, biodiversité, énergie…",
+     "f": "",
+     "valeurs": [
+      "eau",
+      "mer et littoral",
+      "biodiversité",
+      "déchets et compostage",
+      "alimentation",
+      "énergie",
+      "climat",
+      "risque inondation",
+      "bruit",
+      "sobriété numérique"
+     ]
+    },
+    {
+     "n": "niveaux",
+     "t": "tags (multi)",
+     "note": "maternelle, cycle 2, cycle 3, collège, lycée, adultes",
+     "f": "",
+     "valeurs": [
+      "maternelle",
+      "cycle 2",
+      "cycle 3",
+      "collège",
+      "lycée",
+      "adultes"
+     ]
+    },
+    {
+     "n": "formats",
+     "t": "tags (multi)",
+     "note": "« 1 h pour comprendre », « Programme éducatif 3 × 2 h », sortie…",
+     "f": "",
+     "valeurs": [
+      "1 h pour comprendre",
+      "programme éducatif 3 × 2 h",
+      "sortie",
+      "visite"
+     ]
+    },
+    {
+     "n": "seances_par_classe",
+     "t": "entier",
+     "note": "nombre type de séances (1 à 6)",
+     "f": ""
+    },
+    {
+     "n": "personnalisation",
+     "t": "tags (multi)",
+     "note": "duplication | à la carte (planification plus longue)",
+     "f": "new",
+     "valeurs": [
+      "duplication",
+      "à la carte"
+     ]
+    },
+    {
+     "n": "catalogue_pdf",
+     "t": "fichier",
+     "note": "catalogue diffusé",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "3.1",
+    "3.2"
+   ],
+   "regles": []
+  },
+  {
+   "key": "institution",
+   "nom": "Institution",
+   "zone": "entree",
+   "terme": "Institution (financeuse ou bénéficiaire)",
+   "desc": "Toute entité avec laquelle M2000 travaille. Une même institution peut être financeuse sur un projet et bénéficiaire sur un autre.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "nom",
+     "t": "texte",
+     "note": "Ville de Cannes, École d'Auribeau…",
+     "f": ""
+    },
+    {
+     "n": "categorie",
+     "t": "tags (multi)",
+     "note": "commune, EPCI, métropole, département, région, fondation, entreprise, école, collège, lycée, grand public",
+     "f": "",
+     "valeurs": [
+      "commune",
+      "EPCI",
+      "métropole",
+      "département",
+      "région",
+      "fondation",
+      "entreprise",
+      "école",
+      "collège",
+      "lycée",
+      "grand public"
+     ]
+    },
+    {
+     "n": "secteur",
+     "t": "énumération (valeur unique)",
+     "note": "public | privé",
+     "f": "",
+     "valeurs": [
+      "public",
+      "privé"
+     ]
+    },
+    {
+     "n": "commune",
+     "t": "texte",
+     "note": "",
+     "f": ""
+    },
+    {
+     "n": "adresse",
+     "t": "texte",
+     "note": "",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4"
+   ],
+   "regles": []
+  },
+  {
+   "key": "projet",
+   "nom": "Projet",
+   "zone": "entree",
+   "terme": "Projet (projet pédagogique)",
+   "desc": "Relie un programme, une ou plusieurs institutions financeuses et des classes, avec un quota. Confié à une coordinatrice. Le point d'entrée du parcours.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "nom",
+     "t": "texte",
+     "note": "« Déchets CACPL 2025-2026 »",
+     "f": ""
+    },
+    {
+     "n": "annee_scolaire",
+     "t": "texte",
+     "note": "2025-2026",
+     "f": ""
+    },
+    {
+     "n": "programme_id",
+     "t": "→ Programme (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "quota_classes",
+     "t": "entier",
+     "note": "fixé par le budget",
+     "f": ""
+    },
+    {
+     "n": "date_limite_inscription",
+     "t": "date",
+     "note": "jalon (ex. 03/10)",
+     "f": ""
+    },
+    {
+     "n": "mode_inscription",
+     "t": "tags (multi)",
+     "note": "1 collectivité | 2 M2000 | les deux (tags)",
+     "f": "",
+     "valeurs": [
+      "collectivité",
+      "M2000"
+     ]
+    },
+    {
+     "n": "projet_precedent_id",
+     "t": "→ Projet (UUID v7)",
+     "note": "reprise de l'année précédente (récurrence)",
+     "f": "fk new"
+    },
+    {
+     "n": "statut",
+     "t": "énumération (valeur unique)",
+     "note": "validé | inscriptions | planification | en cours | bilan | clos",
+     "f": "",
+     "valeurs": [
+      "validé",
+      "inscriptions",
+      "planification",
+      "en cours",
+      "bilan",
+      "clos"
+     ]
+    }
+   ],
+   "etapes": [
+    "0",
+    "3.1",
+    "3.5",
+    "3.6",
+    "4"
+   ],
+   "regles": [
+    "Un même programme peut donner plusieurs projets (un par financeur ou par périmètre)."
+   ]
+  },
+  {
+   "key": "financement",
+   "nom": "Financement",
+   "zone": "entree",
+   "terme": "Institution financeuse (lien)",
+   "desc": "Lien entre un projet et une institution financeuse. Un projet peut être cofinancé (Opio : Mairie, SUEZ, M2000).",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "projet_id",
+     "t": "→ Projet (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "institution_id",
+     "t": "→ Institution (UUID v7)",
+     "note": "la financeuse",
+     "f": "fk"
+    },
+    {
+     "n": "type",
+     "t": "tags (multi)",
+     "note": "subvention | prestation | appel d'offres (lot)",
+     "f": "",
+     "valeurs": [
+      "subvention",
+      "prestation",
+      "appel d'offres"
+     ]
+    },
+    {
+     "n": "lot",
+     "t": "texte",
+     "note": "ex. lot A primaire, lot B collège-lycée",
+     "f": ""
+    },
+    {
+     "n": "perimetre",
+     "t": "tags (multi)",
+     "note": "tout le projet | classes listées",
+     "f": "",
+     "valeurs": [
+      "tout le projet",
+      "classes listées"
+     ]
+    },
+    {
+     "n": "info_a_chaque_changement",
+     "t": "booléen",
+     "note": "prévenir le financeur à chaque changement de date",
+     "f": "new"
+    }
+   ],
+   "etapes": [
+    "3.1",
+    "5.3",
+    "8.2"
+   ],
+   "regles": [
+    "Règle ferme : un rapport par institution financeuse, avec uniquement ses données."
+   ]
+  },
+  {
+   "key": "classe",
+   "nom": "Classe",
+   "zone": "entree",
+   "terme": "Classe (ou groupe)",
+   "desc": "Subdivision d'une institution bénéficiaire scolaire ; pour un public non scolaire, un groupe.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "institution_id",
+     "t": "→ Institution (UUID v7)",
+     "note": "l'école",
+     "f": "fk"
+    },
+    {
+     "n": "niveau",
+     "t": "texte",
+     "note": "CM1, GS, 5e…",
+     "f": ""
+    },
+    {
+     "n": "libelle",
+     "t": "texte",
+     "note": "« CM2 de Mme X »",
+     "f": ""
+    },
+    {
+     "n": "effectif_declare",
+     "t": "entier",
+     "note": "déclaré à l'inscription",
+     "f": ""
+    },
+    {
+     "n": "enseignant_id",
+     "t": "→ Contact (UUID v7)",
+     "note": "",
+     "f": "fk"
+    }
+   ],
+   "etapes": [
+    "3.3",
+    "3.4"
+   ],
+   "regles": []
+  },
+  {
+   "key": "inscription",
+   "nom": "Inscription",
+   "zone": "entree",
+   "terme": "Classe inscrite à un projet",
+   "desc": "Une classe inscrite à un projet : la ligne du fichier Excel d'aujourd'hui. Porte les choix (thématique, format) et l'animatrice référente.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "projet_id",
+     "t": "→ Projet (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "classe_id",
+     "t": "→ Classe (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "statut",
+     "t": "énumération (valeur unique)",
+     "note": "demandée | retenue | liste d'attente | refusée | désistée",
+     "f": "",
+     "valeurs": [
+      "demandée",
+      "retenue",
+      "liste d'attente",
+      "refusée",
+      "désistée"
+     ]
+    },
+    {
+     "n": "thematiques",
+     "t": "tags (multi)",
+     "note": "tri, prévention, compostage…",
+     "f": "",
+     "valeurs": [
+      "tri sélectif",
+      "prévention",
+      "compostage"
+     ]
+    },
+    {
+     "n": "formats",
+     "t": "tags (multi)",
+     "note": "1 h ou programme éducatif",
+     "f": "",
+     "valeurs": [
+      "sensibilisation 1 h",
+      "programme éducatif 3 × 2 h"
+     ]
+    },
+    {
+     "n": "animatrice_id",
+     "t": "→ Membre (UUID v7)",
+     "note": "colonne « animatrice » ajoutée à la main aujourd'hui",
+     "f": "fk"
+    },
+    {
+     "n": "source",
+     "t": "tags (multi)",
+     "note": "fichier de l'institution | formulaire | saisie M2000",
+     "f": "",
+     "valeurs": [
+      "fichier de l'institution",
+      "formulaire",
+      "saisie M2000"
+     ]
+    },
+    {
+     "n": "description_projet_classe",
+     "t": "texte",
+     "note": "projet de la classe (fiche d'inscription)",
+     "f": ""
+    },
+    {
+     "n": "service_fait",
+     "t": "booléen",
+     "note": "case « Validation service fait » (sens à confirmer)",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "4"
+   ],
+   "regles": []
+  },
+  {
+   "key": "fichier_projet",
+   "nom": "Fichier du projet",
+   "zone": "entree",
+   "terme": "Fichier Excel du projet (format imposé)",
+   "desc": "Le fichier Excel partagé avec l'institution (Teams, SharePoint) dont il faut respecter le format. La solution l'alimente au lieu de le remplacer.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "projet_id",
+     "t": "→ Projet (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "emplacement",
+     "t": "texte",
+     "note": "Teams, SharePoint, Google Sheets, local",
+     "f": ""
+    },
+    {
+     "n": "format_impose",
+     "t": "booléen",
+     "note": "40 % des fichiers",
+     "f": ""
+    },
+    {
+     "n": "mapping_colonnes",
+     "t": "structure",
+     "note": "colonne Excel → attribut (ordre imposé)",
+     "f": "new"
+    },
+    {
+     "n": "granularite",
+     "t": "tags (multi)",
+     "note": "une ligne par classe | une ligne par séance | blocs fusionnés",
+     "f": "",
+     "valeurs": [
+      "une ligne par classe",
+      "une ligne par séance",
+      "blocs fusionnés"
+     ]
+    },
+    {
+     "n": "derniere_synchro",
+     "t": "date-heure",
+     "note": "",
+     "f": "new"
+    }
+   ],
+   "etapes": [
+    "3.4",
+    "3.6",
+    "5.2",
+    "6.2"
+   ],
+   "regles": [
+    "On ne change jamais l'ordre des colonnes d'un fichier imposé."
+   ]
+  },
+  {
+   "key": "seance",
+   "nom": "Séance",
+   "zone": "coeur",
+   "terme": "Séance",
+   "desc": "Une intervention datée, assurée par une ou plusieurs animatrices auprès d'une classe inscrite. Remplace le « ? » de l'agenda par un vrai statut.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "inscription_id",
+     "t": "→ Inscription (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "numero",
+     "t": "entier",
+     "note": "séance 1, 2, 3…",
+     "f": ""
+    },
+    {
+     "n": "type",
+     "t": "tags (multi)",
+     "note": "en classe | sortie | visite | atelier avec intervenant",
+     "f": "",
+     "valeurs": [
+      "en classe",
+      "sortie",
+      "visite",
+      "atelier avec intervenant"
+     ]
+    },
+    {
+     "n": "debut",
+     "t": "date-heure",
+     "note": "aujourd'hui du texte libre (« 09/01/26 matin »)",
+     "f": ""
+    },
+    {
+     "n": "fin",
+     "t": "date-heure",
+     "note": "",
+     "f": "new"
+    },
+    {
+     "n": "lieu",
+     "t": "texte",
+     "note": "école, site de sortie, centre de tri…",
+     "f": ""
+    },
+    {
+     "n": "animation",
+     "t": "texte",
+     "note": "contenu réellement animé",
+     "f": ""
+    },
+    {
+     "n": "statut",
+     "t": "énumération (valeur unique)",
+     "note": "à confirmer | confirmée | reportée | annulée | réalisée",
+     "f": "new",
+     "valeurs": [
+      "à confirmer",
+      "confirmée",
+      "reportée",
+      "annulée",
+      "réalisée"
+     ]
+    },
+    {
+     "n": "effectif_reel",
+     "t": "entier",
+     "note": "saisi en fin de séance si c'est très simple",
+     "f": "new"
+    },
+    {
+     "n": "remarques",
+     "t": "texte",
+     "note": "colonne libre d'aujourd'hui",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "4",
+    "4.1",
+    "5.1",
+    "5.2",
+    "5.4",
+    "6",
+    "6.1",
+    "6.2",
+    "7.1"
+   ],
+   "regles": []
+  },
+  {
+   "key": "participation",
+   "nom": "Participation",
+   "zone": "coeur",
+   "terme": "Animatrice, représentant, intervenant",
+   "desc": "Qui participe à une séance : une ou deux animatrices, un représentant de l'institution financeuse, un intervenant externe (apiculteur…).",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "seance_id",
+     "t": "→ Séance (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "membre_id",
+     "t": "→ Membre (UUID v7)",
+     "note": "si animatrice M2000",
+     "f": "fk"
+    },
+    {
+     "n": "contact_id",
+     "t": "→ Contact (UUID v7)",
+     "note": "si représentant ou intervenant",
+     "f": "fk"
+    },
+    {
+     "n": "role",
+     "t": "tags (multi)",
+     "note": "animatrice | 2e animatrice | représentant de l'institution financeuse | intervenant externe",
+     "f": "",
+     "valeurs": [
+      "animatrice",
+      "2e animatrice",
+      "représentant de l'institution financeuse",
+      "intervenant externe"
+     ]
+    },
+    {
+     "n": "a_prevenir",
+     "t": "booléen",
+     "note": "doit être notifié des changements",
+     "f": "new"
+    }
+   ],
+   "etapes": [
+    "5.3",
+    "6"
+   ],
+   "regles": [
+    "On peut associer un représentant dès la création de la séance.",
+    "Une animatrice ne modifie que ses propres séances ; la coordinatrice a tous les droits sur son projet."
+   ]
+  },
+  {
+   "key": "changement",
+   "nom": "Changement de date",
+   "zone": "coeur",
+   "terme": "Report ou annulation",
+   "desc": "L'historique des reports et annulations, avec la trace des personnes prévenues.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "seance_id",
+     "t": "→ Séance (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "ancien_debut",
+     "t": "date-heure",
+     "note": "",
+     "f": ""
+    },
+    {
+     "n": "nouveau_debut",
+     "t": "date-heure",
+     "note": "",
+     "f": ""
+    },
+    {
+     "n": "motif",
+     "t": "texte",
+     "note": "« finalement, j'ai natation »",
+     "f": ""
+    },
+    {
+     "n": "decide_par",
+     "t": "→ Membre (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "decide_le",
+     "t": "date-heure",
+     "note": "",
+     "f": ""
+    },
+    {
+     "n": "canal",
+     "t": "tags (multi)",
+     "note": "en classe | téléphone | mail",
+     "f": "",
+     "valeurs": [
+      "en classe",
+      "téléphone",
+      "mail"
+     ]
+    }
+   ],
+   "etapes": [
+    "6.1",
+    "6.2"
+   ],
+   "regles": [
+    "Un changement met à jour en une fois l'agenda, le fichier du projet et les personnes à prévenir."
+   ]
+  },
+  {
+   "key": "evenement_agenda",
+   "nom": "Événement d'agenda",
+   "zone": "coeur",
+   "terme": "Rendez-vous Outlook",
+   "desc": "Le lien entre une séance et l'événement de l'agenda Outlook partagé (saisie unique, synchronisation).",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "seance_id",
+     "t": "→ Séance (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "outlook_id",
+     "t": "texte",
+     "note": "identifiant Outlook",
+     "f": "new"
+    },
+    {
+     "n": "agenda",
+     "t": "texte",
+     "note": "agenda de l'animatrice",
+     "f": ""
+    },
+    {
+     "n": "titre_normalise",
+     "t": "texte",
+     "note": "projet · école · classe · séance n",
+     "f": "new"
+    },
+    {
+     "n": "contenu",
+     "t": "texte",
+     "note": "enseignant, niveau, effectif, animation (minimum demandé par l'équipe)",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "5.1",
+    "5.2",
+    "6.2"
+   ],
+   "regles": []
+  },
+  {
+   "key": "message",
+   "nom": "Message",
+   "zone": "coeur",
+   "terme": "Mail (confirmation, rappel, changement, questionnaire)",
+   "desc": "Tout envoi à un enseignant, un représentant ou un financeur, à partir d'un modèle commun.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "type",
+     "t": "tags (multi)",
+     "note": "confirmation | rappel J-7 | changement | information financeur | questionnaire",
+     "f": "",
+     "valeurs": [
+      "confirmation",
+      "rappel J-7",
+      "changement",
+      "information financeur",
+      "questionnaire"
+     ]
+    },
+    {
+     "n": "modele_id",
+     "t": "→ Modèle de message (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "seance_id",
+     "t": "→ Séance (UUID v7)",
+     "note": "ou inscription_id",
+     "f": "fk"
+    },
+    {
+     "n": "destinataire_id",
+     "t": "→ Contact (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "expediteur",
+     "t": "tags (multi)",
+     "note": "boîte de la coordinatrice | adresse dédiée (à trancher le 2/11)",
+     "f": "",
+     "valeurs": [
+      "boîte de la coordinatrice",
+      "adresse dédiée"
+     ]
+    },
+    {
+     "n": "copie_coordinatrice",
+     "t": "booléen",
+     "note": "",
+     "f": "new"
+    },
+    {
+     "n": "statut",
+     "t": "énumération (valeur unique)",
+     "note": "à envoyer | envoyé | répondu",
+     "f": "",
+     "valeurs": [
+      "à envoyer",
+      "envoyé",
+      "répondu"
+     ]
+    },
+    {
+     "n": "envoye_le",
+     "t": "date-heure",
+     "note": "",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "4.1",
+    "5.3",
+    "5.4",
+    "6.2",
+    "7.2"
+   ],
+   "regles": [
+    "Adresses des enseignants en copie cachée ou envoi individuel : jamais visibles des autres."
+   ]
+  },
+  {
+   "key": "questionnaire",
+   "nom": "Retour d'expérience",
+   "zone": "sortie",
+   "terme": "Retour d'expérience (questionnaire)",
+   "desc": "Le questionnaire envoyé à l'enseignant après la dernière séance, et sa réponse.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "inscription_id",
+     "t": "→ Inscription (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "formulaire",
+     "t": "texte",
+     "note": "Forms générique ou propre au projet (Écopousse, Déchets…)",
+     "f": ""
+    },
+    {
+     "n": "envoye_le",
+     "t": "date-heure",
+     "note": "",
+     "f": ""
+    },
+    {
+     "n": "repondu_le",
+     "t": "date-heure",
+     "note": "",
+     "f": ""
+    },
+    {
+     "n": "satisfaction",
+     "t": "entier",
+     "note": "note ou niveau",
+     "f": ""
+    },
+    {
+     "n": "reponses",
+     "t": "structure",
+     "note": "lien vers les réponses Forms",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "7.2",
+    "7.3"
+   ],
+   "regles": []
+  },
+  {
+   "key": "rapport",
+   "nom": "Rapport par projet",
+   "zone": "sortie",
+   "terme": "Rapport par projet (bilan)",
+   "desc": "Le rapport confidentiel destiné à UNE institution financeuse, généré à partir des séances réalisées des classes de son périmètre.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "projet_id",
+     "t": "→ Projet (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "financement_id",
+     "t": "→ Financement (UUID v7)",
+     "note": "le destinataire",
+     "f": "fk"
+    },
+    {
+     "n": "periode",
+     "t": "texte",
+     "note": "année scolaire ou lot",
+     "f": ""
+    },
+    {
+     "n": "inscriptions_incluses",
+     "t": "liste → Inscription (UUID v7)",
+     "note": "périmètre choisi",
+     "f": ""
+    },
+    {
+     "n": "indicateurs",
+     "t": "structure",
+     "note": "classes, élèves, séances par commune, cycle, thématique ; quota atteint ; satisfaction",
+     "f": ""
+    },
+    {
+     "n": "matiere_qualitative",
+     "t": "texte",
+     "note": "fiches par classe, photos, temps forts",
+     "f": ""
+    },
+    {
+     "n": "statut",
+     "t": "énumération (valeur unique)",
+     "note": "brouillon | relu | remis",
+     "f": "",
+     "valeurs": [
+      "brouillon",
+      "relu",
+      "remis"
+     ]
+    },
+    {
+     "n": "remis_le",
+     "t": "date",
+     "note": "",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "7.4",
+    "7.5",
+    "8.1",
+    "8.2"
+   ],
+   "regles": [
+    "Ne contient que les données de son institution financeuse, même en cas de cofinancement."
+   ]
+  },
+  {
+   "key": "membre",
+   "nom": "Membre de l'équipe",
+   "zone": "transversal",
+   "terme": "Coordinatrice, animatrice",
+   "desc": "Salarié de l'équipe opérationnelle (9 personnes au plus). Pas de hiérarchie : chacun coordonne ses projets.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "prenom",
+     "t": "texte",
+     "note": "",
+     "f": ""
+    },
+    {
+     "n": "nom",
+     "t": "texte",
+     "note": "",
+     "f": "pii"
+    },
+    {
+     "n": "email",
+     "t": "texte",
+     "note": "",
+     "f": "pii"
+    },
+    {
+     "n": "contrat",
+     "t": "énumération (valeur unique)",
+     "note": "CDI | CDD",
+     "f": "",
+     "valeurs": [
+      "CDI",
+      "CDD"
+     ]
+    },
+    {
+     "n": "profil",
+     "t": "énumération (valeur unique)",
+     "note": "admin | membre : droit d'accès à l'outil, pas un rang",
+     "f": "",
+     "valeurs": [
+      "admin",
+      "membre"
+     ]
+    },
+    {
+     "n": "photo",
+     "t": "fichier",
+     "note": "vignette",
+     "f": "new"
+    }
+   ],
+   "etapes": [
+    "3.6",
+    "4",
+    "6"
+   ],
+   "regles": [
+    "Profil admin : voit, crée et modifie tous les projets ; gère l'équipe et le référentiel de tags. Plusieurs admins possibles.",
+    "Profil membre : n'agit que sur les projets où il figure dans l'équipe du projet.",
+    "Le rôle (coordinatrice, animatrice) se porte dans l'équipe du projet, pas sur la personne.",
+    "Les CDD ne couvrent que les étapes 4 à 6."
+   ]
+  },
+  {
+   "key": "equipe_projet",
+   "nom": "Équipe du projet",
+   "zone": "transversal",
+   "terme": "Coordinatrice ou animatrice d'un projet",
+   "desc": "Qui travaille sur quel projet, et avec quel rôle. Une même personne peut être coordinatrice d'un projet et animatrice d'un autre.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "projet_id",
+     "t": "→ Projet (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "membre_id",
+     "t": "→ Membre (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "roles",
+     "t": "tags (multi)",
+     "note": "coordinatrice | animatrice",
+     "f": "",
+     "valeurs": [
+      "coordinatrice",
+      "animatrice"
+     ]
+    },
+    {
+     "n": "depuis",
+     "t": "date",
+     "note": "facultatif (arrivée d'un CDD)",
+     "f": ""
+    },
+    {
+     "n": "jusqu_au",
+     "t": "date",
+     "note": "facultatif",
+     "f": ""
+    }
+   ],
+   "etapes": [
+    "3.1",
+    "3.6",
+    "4"
+   ],
+   "regles": [
+    "Coordinatrice : tous les droits sur le projet (inscriptions, séances de toute l'équipe, rapport).",
+    "Animatrice : voit le projet et ne modifie que ses propres séances.",
+    "La personne qui crée un projet en devient coordinatrice par défaut.",
+    "Un projet a toujours au moins une coordinatrice."
+   ]
+  },
+  {
+   "key": "contact",
+   "nom": "Contact",
+   "zone": "transversal",
+   "terme": "Enseignant, représentant, intervenant",
+   "desc": "Personne extérieure à l'équipe : enseignant, représentant de l'institution financeuse, intervenant externe. Aucun accès à l'outil.",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "institution_id",
+     "t": "→ Institution (UUID v7)",
+     "note": "",
+     "f": "fk"
+    },
+    {
+     "n": "type",
+     "t": "tags (multi)",
+     "note": "enseignant | représentant | intervenant externe | agent référent",
+     "f": "",
+     "valeurs": [
+      "enseignant",
+      "représentant de l'institution financeuse",
+      "intervenant externe",
+      "agent référent"
+     ]
+    },
+    {
+     "n": "civilite_nom",
+     "t": "texte",
+     "note": "",
+     "f": "pii"
+    },
+    {
+     "n": "email",
+     "t": "texte",
+     "note": "",
+     "f": "pii"
+    },
+    {
+     "n": "telephone",
+     "t": "texte",
+     "note": "",
+     "f": "pii"
+    }
+   ],
+   "etapes": [
+    "3.3",
+    "4",
+    "4.1",
+    "5.3",
+    "5.4",
+    "7.2"
+   ],
+   "regles": [
+    "Données personnelles : droit à la suppression (RGPD), jamais partagées entre financeurs."
+   ]
+  },
+  {
+   "key": "modele",
+   "nom": "Modèle de message",
+   "zone": "transversal",
+   "terme": "Modèle de mail commun",
+   "desc": "Les modèles communs (confirmation, rappel, changement, questionnaire) qui remplacent « chacun son modèle (ou pas !) ».",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "type",
+     "t": "tags (multi)",
+     "note": "confirmation | rappel | changement | questionnaire",
+     "f": "",
+     "valeurs": [
+      "confirmation",
+      "rappel",
+      "changement",
+      "questionnaire"
+     ]
+    },
+    {
+     "n": "objet",
+     "t": "texte",
+     "note": "",
+     "f": ""
+    },
+    {
+     "n": "corps",
+     "t": "texte",
+     "note": "avec variables : {enseignant}, {date}, {animation}…",
+     "f": "new"
+    },
+    {
+     "n": "projet_id",
+     "t": "→ Projet (UUID v7)",
+     "note": "facultatif : modèle propre à un projet",
+     "f": "fk"
+    }
+   ],
+   "etapes": [
+    "4.1",
+    "5.4",
+    "7.2"
+   ],
+   "regles": []
+  },
+  {
+   "key": "tag",
+   "nom": "Tag",
+   "zone": "transversal",
+   "terme": "Étiquette (valeur de liste)",
+   "desc": "Le référentiel des valeurs de liste. Chaque attribut de type « tags » pointe vers des tags d'une même famille (ex. famille « type de contact » : enseignant, représentant, intervenant externe…). On peut ajouter une valeur sans toucher au code, et poser plus tard des règles (exclusivité, valeurs autorisées).",
+   "attrs": [
+    {
+     "n": "id",
+     "t": "UUID v7",
+     "note": "",
+     "f": "pk"
+    },
+    {
+     "n": "famille",
+     "t": "texte",
+     "note": "ex. type_contact, categorie_institution, role_participation",
+     "f": ""
+    },
+    {
+     "n": "code",
+     "t": "texte",
+     "note": "valeur technique stable",
+     "f": ""
+    },
+    {
+     "n": "libelle",
+     "t": "texte",
+     "note": "valeur affichée",
+     "f": ""
+    },
+    {
+     "n": "couleur",
+     "t": "texte",
+     "note": "facultatif",
+     "f": ""
+    },
+    {
+     "n": "actif",
+     "t": "booléen",
+     "note": "masquer une valeur sans la supprimer",
+     "f": ""
+    },
+    {
+     "n": "regles",
+     "t": "structure",
+     "note": "plus tard : exclusivité, combinaisons interdites",
+     "f": "new"
+    }
+   ],
+   "etapes": [
+    "toutes"
+   ],
+   "regles": [
+    "Un attribut « tags » accepte plusieurs valeurs de sa famille (multi-sélection).",
+    "Les statuts restent à valeur unique : une séance ne peut pas être à la fois annulée et réalisée."
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "de": "programme",
+   "vers": "projet",
+   "cardinalite": "1 — n",
+   "libelle": "décliné en"
+  },
+  {
+   "de": "projet",
+   "vers": "financement",
+   "cardinalite": "1 — n",
+   "libelle": "financé par"
+  },
+  {
+   "de": "institution",
+   "vers": "financement",
+   "cardinalite": "1 — n",
+   "libelle": "finance"
+  },
+  {
+   "de": "institution",
+   "vers": "classe",
+   "cardinalite": "1 — n",
+   "libelle": "compte"
+  },
+  {
+   "de": "contact",
+   "vers": "classe",
+   "cardinalite": "1 — n",
+   "libelle": "enseigne à"
+  },
+  {
+   "de": "institution",
+   "vers": "contact",
+   "cardinalite": "1 — n",
+   "libelle": "emploie"
+  },
+  {
+   "de": "projet",
+   "vers": "inscription",
+   "cardinalite": "1 — n",
+   "libelle": "inscrit"
+  },
+  {
+   "de": "classe",
+   "vers": "inscription",
+   "cardinalite": "1 — n",
+   "libelle": "s'inscrit"
+  },
+  {
+   "de": "projet",
+   "vers": "equipe_projet",
+   "cardinalite": "1 — n",
+   "libelle": "composé de"
+  },
+  {
+   "de": "membre",
+   "vers": "equipe_projet",
+   "cardinalite": "1 — n",
+   "libelle": "affecté à"
+  },
+  {
+   "de": "membre",
+   "vers": "inscription",
+   "cardinalite": "1 — n",
+   "libelle": "anime (référente)"
+  },
+  {
+   "de": "projet",
+   "vers": "fichier_projet",
+   "cardinalite": "1 — 0..1",
+   "libelle": "alimente"
+  },
+  {
+   "de": "inscription",
+   "vers": "seance",
+   "cardinalite": "1 — n",
+   "libelle": "planifiée en"
+  },
+  {
+   "de": "seance",
+   "vers": "participation",
+   "cardinalite": "1 — n",
+   "libelle": "avec"
+  },
+  {
+   "de": "membre",
+   "vers": "participation",
+   "cardinalite": "1 — n",
+   "libelle": "anime"
+  },
+  {
+   "de": "contact",
+   "vers": "participation",
+   "cardinalite": "1 — n",
+   "libelle": "assiste / intervient"
+  },
+  {
+   "de": "seance",
+   "vers": "changement",
+   "cardinalite": "1 — n",
+   "libelle": "reportée par"
+  },
+  {
+   "de": "seance",
+   "vers": "evenement_agenda",
+   "cardinalite": "1 — 0..1",
+   "libelle": "affichée dans"
+  },
+  {
+   "de": "seance",
+   "vers": "message",
+   "cardinalite": "1 — n",
+   "libelle": "notifiée par"
+  },
+  {
+   "de": "contact",
+   "vers": "message",
+   "cardinalite": "1 — n",
+   "libelle": "reçoit"
+  },
+  {
+   "de": "modele",
+   "vers": "message",
+   "cardinalite": "1 — n",
+   "libelle": "modèle de"
+  },
+  {
+   "de": "inscription",
+   "vers": "questionnaire",
+   "cardinalite": "1 — 0..1",
+   "libelle": "évaluée par"
+  },
+  {
+   "de": "projet",
+   "vers": "rapport",
+   "cardinalite": "1 — n",
+   "libelle": "bilan"
+  },
+  {
+   "de": "financement",
+   "vers": "rapport",
+   "cardinalite": "1 — n",
+   "libelle": "destinataire"
+  },
+  {
+   "de": "inscription",
+   "vers": "rapport",
+   "cardinalite": "n — n",
+   "libelle": "incluse dans"
+  }
+ ],
+ "vues_par_zone": {
+  "entree": [
+   "programme",
+   "projet",
+   "financement",
+   "institution",
+   "classe",
+   "contact",
+   "inscription",
+   "fichier_projet",
+   "membre",
+   "equipe_projet",
+   "seance"
+  ],
+  "coeur": [
+   "inscription",
+   "seance",
+   "participation",
+   "changement",
+   "evenement_agenda",
+   "message",
+   "modele",
+   "contact",
+   "membre",
+   "fichier_projet",
+   "questionnaire"
+  ],
+  "sortie": [
+   "projet",
+   "financement",
+   "institution",
+   "inscription",
+   "seance",
+   "questionnaire",
+   "rapport",
+   "message",
+   "modele"
+  ]
+ }
+}

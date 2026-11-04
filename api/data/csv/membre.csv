@@ -1,0 +1,9 @@
+id,prenom,nom,email,contrat,profil,photo
+01a19b45-b86c-7731-8dbd-6e02aecb9e68,Estelle,,estelle@exemple-m2000.org,CDI,admin,
+01a19b45-b86d-71f3-a9f9-14845377899a,Serena,,serena@exemple-m2000.org,CDI,membre,
+01a19b45-b86e-7777-b2e3-63557f60b9fa,Sandrine,,sandrine@exemple-m2000.org,CDI,membre,
+01a19b45-b86f-7ce2-9e5c-f6e992559248,Merryl,,merryl@exemple-m2000.org,CDI,membre,
+01a19b45-b870-7974-a765-5f912bb53283,Amandine,,amandine@exemple-m2000.org,CDI,membre,
+01a19b45-b871-76f0-b4fd-02f6850567c2,Florence,,florence@exemple-m2000.org,CDI,membre,
+01a19b45-b872-7755-961f-8bfe9f93693f,Maëlle,,maelle@exemple-m2000.org,CDD,membre,
+01a19b45-b873-7ad8-bbbb-492b9924eb8b,Élise,,elise@exemple-m2000.org,CDD,membre,

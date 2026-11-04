@@ -1,0 +1,18 @@
+name: team01
+networks:
+  core-network:
+    external: true
+services:
+  frontend:
+    image: localhost:5000/team01/frontend:dev
+    networks: [core-network]
+    ports: ["8080:80"]
+  api:
+    image: localhost:5000/team01/api:dev
+    networks: [core-network]
+    ports: ["8081:8081"]
+    environment:
+      DB_HOST: postgres.internal
+      DB_NAME: team01
+      DB_USER: postgres
+      DB_PASSWORD: postgres-dev-password
