@@ -2,84 +2,102 @@
 
 import { useEffect, useState } from "react";
 import styles from "./page.module.css";
+import QuiEtesVous from "./QuiEtesVous";
+import EcranSeances from "./EcranSeances";
+import EcranRapport from "./EcranRapport";
+import type { Membre, Projet } from "./types";
 
-type Projet = { id: string; nom: string; annee_scolaire: string; statut: string };
-type Seance = {
-  id: string;
-  numero: number;
-  debut: string;
-  statut: string;
-  effectif_reel: number | null;
-  institution_nom: string;
-  effectif_declare: number | null;
-  retour_recu: boolean;
-};
+const CLE_STOCKAGE = "membre-courant";
+type Ecran = "seances" | "rapport";
+
+function lireMembreStocke(): Membre | null {
+  if (typeof window === "undefined") return null;
+  const brut = window.localStorage.getItem(CLE_STOCKAGE);
+  if (!brut) return null;
+  try {
+    return JSON.parse(brut) as Membre;
+  } catch {
+    window.localStorage.removeItem(CLE_STOCKAGE);
+    return null;
+  }
+}
 
 export default function Home() {
+  const [membre, setMembre] = useState<Membre | null>(lireMembreStocke);
+  const [ecran, setEcran] = useState<Ecran>("seances");
   const [projets, setProjets] = useState<Projet[]>([]);
-  const [projetId, setProjetId] = useState<string>("");
-  const [seances, setSeances] = useState<Seance[]>([]);
+  const [projetId, setProjetId] = useState("");
 
   useEffect(() => {
     fetch("/api/v1/projets")
       .then((r) => r.json())
       .then((data: Projet[]) => {
         setProjets(data);
-        if (data[0]) setProjetId(data[0].id);
+        setProjetId((courant) => courant || data[0]?.id || "");
       })
       .catch(() => setProjets([]));
   }, []);
 
-  useEffect(() => {
-    if (!projetId) return;
-    fetch(`/api/v1/projets/${projetId}/seances`)
-      .then((r) => r.json())
-      .then((data: Seance[]) => setSeances(data))
-      .catch(() => setSeances([]));
-  }, [projetId]);
+  function choisirMembre(m: Membre) {
+    setMembre(m);
+    window.localStorage.setItem(CLE_STOCKAGE, JSON.stringify(m));
+  }
+
+  function changerDeMembre() {
+    setMembre(null);
+    window.localStorage.removeItem(CLE_STOCKAGE);
+  }
+
+  if (!membre) {
+    return (
+      <div className={styles.page}>
+        <header className={styles.entete}>
+          <div>
+            <h1>Méditerranée 2000</h1>
+            <p>Suivi des projets d&apos;éducation à l&apos;environnement</p>
+          </div>
+        </header>
+        <QuiEtesVous onChoisir={choisirMembre} />
+      </div>
+    );
+  }
 
   return (
     <div className={styles.page}>
-      <main className={styles.main}>
-        <h1>Suivi des séances par projet</h1>
-        <p>Méditerranée 2000 — données de séance et retours d&apos;expérience, rassemblés par projet.</p>
+      <header className={styles.entete}>
+        <div>
+          <h1>Méditerranée 2000</h1>
+          <p>Suivi des projets d&apos;éducation à l&apos;environnement</p>
+        </div>
+        <nav className={styles.nav}>
+          <button
+            className={ecran === "seances" ? styles.navBtnActif : styles.navBtn}
+            onClick={() => setEcran("seances")}
+          >
+            Séances
+          </button>
+          <button
+            className={ecran === "rapport" ? styles.navBtnActif : styles.navBtn}
+            onClick={() => setEcran("rapport")}
+          >
+            Rapport de bilan
+          </button>
+        </nav>
+        <div className={styles.identite}>
+          <span className={styles.identiteBadge}>
+            {membre.prenom} {membre.nom} · {membre.profil}
+          </span>
+          <button className={styles.lienDiscret} onClick={changerDeMembre}>
+            Changer
+          </button>
+        </div>
+      </header>
 
-        <label htmlFor="projet">Projet</label>
-        <select id="projet" value={projetId} onChange={(e) => setProjetId(e.target.value)}>
-          {projets.map((p) => (
-            <option key={p.id} value={p.id}>
-              {p.nom} ({p.annee_scolaire}) — {p.statut}
-            </option>
-          ))}
-        </select>
-
-        <table>
-          <thead>
-            <tr>
-              <th>Séance</th>
-              <th>Date</th>
-              <th>Statut</th>
-              <th>Institution bénéficiaire</th>
-              <th>Effectif (déclaré / réel)</th>
-              <th>Retour d&apos;expérience</th>
-            </tr>
-          </thead>
-          <tbody>
-            {seances.map((s) => (
-              <tr key={s.id}>
-                <td>Séance {s.numero}</td>
-                <td>{s.debut}</td>
-                <td>{s.statut}</td>
-                <td>{s.institution_nom}</td>
-                <td>
-                  {s.effectif_declare ?? "—"} / {s.effectif_reel ?? "—"}
-                </td>
-                <td>{s.retour_recu ? "Reçu" : "En attente"}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </main>
+      {ecran === "seances" ? (
+        <EcranSeances membre={membre} projets={projets} projetId={projetId} onChangerProjet={setProjetId} />
+      ) : (
+        <EcranRapport membre={membre} projets={projets} projetId={projetId} onChangerProjet={setProjetId} />
+      )}
     </div>
   );
 }
